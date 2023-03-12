@@ -1,0 +1,3 @@
+<label>Your Image File
+  <input type="file" name="myImage" accept="image/*" />
+</label>
