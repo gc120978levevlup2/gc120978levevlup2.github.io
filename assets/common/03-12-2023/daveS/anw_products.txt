@@ -1,0 +1,45 @@
+link 
+https://www.amazon.com/s?k=pet+care+products+for+dogs&crid=3L5T9V7RTTH4F&sprefix=pet+care%2Caps%2C450&ref=nb_sb_ss_ts-doa-p_2_8
+
+[
+
+
+    {
+        on_sale     : false,
+        description : "Guzekier Pet Dog Grooming Hammock Harness",
+        specs       : "for Cats & Dogs, Dog Sling for Grooming, Dog Hammock Restraint Bag with Nail Clippers/Trimmer, Nail File, Pet",
+        unit_price  : 900,
+        discount_p  : 10,
+        qty         : 100,
+        sold        : 20,
+        review_rate : 4,
+        main_image  : "/assets/img/animal_welfare/anw0001_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0001_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0001_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0001_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0001_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0001_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0001_00006.jpg"
+            },
+
+        ]
+    },
+
+
+    
+
+
+]

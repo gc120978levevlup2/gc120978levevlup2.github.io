@@ -1,0 +1,42 @@
+link 1
+https://chrome.google.com/webstore/detail/image-downloader/cnpniohnfphhjihaiiggeabnkjhpaldj
+
+link2
+https://www.lazada.com.ph/tag/vegetables/?q=vegetables&_keyori=ss&from=input&spm=a2o4l.searchlist.search.go.327859e2JQELy9&catalog_redirect_tag=true
+
+[
+
+
+    {
+        on_sale     : false,
+        description : "OKRA VEGETABLE SEEDS",
+        specs       : "Approx. no. of seeds: 40-50 seeds, Germination Rate: 92% and above, Purity: 99%",
+        unit_price  : 27,
+        discount_p  : 10,
+        qty         : 1000,
+        sold        : 200,
+        review_rate : 5,
+        main_image  : "/assets/img/farm_products/farm0001_00001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/farm_products/farm0001_00001.webp"
+            },
+            {
+                url : "/assets/img/farm_products/farm0001_00002.webp"
+            },
+            {
+                url : "/assets/img/farm_products/farm0001_00003.webp"
+            },
+            {
+                url : "/assets/img/farm_products/farm0001_00004.webp"
+            },
+
+        ]
+    },
+
+
+    
+
+
+]

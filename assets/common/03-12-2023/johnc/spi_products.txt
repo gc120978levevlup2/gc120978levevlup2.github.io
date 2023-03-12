@@ -1,0 +1,59 @@
+link 
+https://faithgateway.com/collections/niv-bibles
+
+[
+
+
+    {
+        on_sale     : true,
+        description : "NIV, Holy Bible New Testament",
+        specs       : "The NIV Holy Bible New Testament is a great tool to give to first-time Bible readers looking to discover God's Word",
+        unit_price  : 2800,
+        discount_p  : 30,
+        qty         : 11,
+        sold        : 2,
+        review_rate : 5,
+        main_image  : "/assets/img/spiritual/spiritual0001_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0001_0001.webp"
+            },
+
+        ]
+    },
+
+
+    {
+        on_sale     : false,
+        description : "NIV, Beautiful Word Bible Journal",
+        specs       : "The NIV Beautiful Word Bible Journal, Revelation, includes the full text of the book of Revelation",
+        unit_price  : 2422,
+        discount_p  : 20,
+        qty         : 10,
+        sold        : 3,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0002_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0002_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0002_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0002_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0002_0004.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0002_0005.webp"
+            },
+                       
+        ]
+    },
+
+
+]
