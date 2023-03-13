@@ -56,4 +56,25 @@ https://faithgateway.com/collections/niv-bibles
     },
 
 
+    {
+        on_sale     : false,
+        description : "NIV, Outreach New Testament, Large Print",
+        specs       : "A low-cost large print Bible perfect for churches, ministries, or individuals looking to share God’s Word.",
+        unit_price  : 100,
+        discount_p  : 20,
+        qty         : 100,
+        sold        : 20,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0003_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0003_0001.webp"
+            },
+          
+                       
+        ]
+    },
+
 ]
+
