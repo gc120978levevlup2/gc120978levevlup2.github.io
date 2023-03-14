@@ -319,7 +319,7 @@ https://faithgateway.com/collections/niv-bibles
         ]
     },
 
-{
+    {
         on_sale     : false,
         description : "40 Days With Jesus: Celebrating His Presence",
         specs       : "Spend 40 days with Jesus—from the time leading up to His death on Good Friday to the celebration of His resurrection on Easter Sunday—and celebrate His presence as never before. Select devotions from Sarah Young’s bestselling Jesus Calling have been compiled to create an experience of closeness with the Savior during any time of the year.",
@@ -339,5 +339,205 @@ https://faithgateway.com/collections/niv-bibles
         ]
     },
 
+
+    {
+        on_sale     : false,
+        description : "He Gets Us: Experiencing the confounding love, forgiveness, and relevance of Jesus",
+        specs       : "Jesus understands our lives because he was human too. He faced the same hardships and personal struggles that we encounter on a daily basis. He felt our deepest sadness and experienced our darkest solitude.",
+        unit_price  : 500
+        discount_p  : 20,
+        qty         : 70,
+        sold        : 40,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0011_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0011_0001.webp"
+            },
+            
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "The Prayer Code: 40 Scripture Prayers Every Believer Should Pray",
+        specs       : "Do you want a richer, more robust prayer life? Your prayers are powerful! Learn how to pray with confidence, faith, and an awareness of the Holy Spirit as you draw from world-changing prayers from Scripture in this inspiring guide to a transformed spiritual life.",
+        unit_price  : 450
+        discount_p  : 20,
+        qty         : 80,
+        sold        : 50,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0012_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0012_0001.webp"
+            },
+            
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "At the Table with Jesus: 66 Days to Draw Closer to Christ and Fortify Your Faith",
+        specs       : "At the Table with Jesus invites readers to sixty-six days of rich engagements with the Good Shepherd, providing deeper truths, power, and connection to walk through life’s troubles. ",
+        unit_price  : 550
+        discount_p  : 30,
+        qty         : 70,
+        sold        : 50,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0013_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0013_0001.webp"
+            },
+            
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "The Awe of God: The Astounding Way a Healthy Fear of God Transforms Your Life",
+        specs       : "Do you long for an intimate relationship with your Creator, but He seems elusive? Perhaps it is because something utterly essential is missing—the fear of the Lord. Don't let this frighten you.",
+        unit_price  : 950
+        discount_p  : 55,
+        qty         : 60,
+        sold        : 60,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0014_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0014_0001.webp"
+            },
+            
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Turn My Mourning into Dancing: Finding Hope During Hard Times",
+        specs       : "In times of suffering, simple answers often ring empty and hollow--so how can you find hope in hard times? Learn how to survive the difficult seasons with the comfort and of God's constancy. With sensitive, practical advice, Henri Nouwen gently points you towards a life that is grounded in God’s companionship and rooted within eternal hope.",
+        unit_price  : 500
+        discount_p  : 30,
+        qty         : 60,
+        sold        : 50,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0015_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0015_0001.webp"
+            },
+            
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Hope for Each Day Morning and Evening Devotions",
+        specs       : "Beginning and ending your day with a daily devotional can be a game changer. Leading inspirational author and pastor Billy Graham shares words of wisdom and inspiration for hope-filled living with 730 devotions in Hope for Each Day: Morning and Evening Devotions.",
+        unit_price  : 875
+        discount_p  : 50,
+        qty         : 60,
+        sold        : 40,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0016_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0016_0001.webp"
+            },
+            
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "100 Favorite Hymns",
+        specs       : "Cultivate a deeper appreciation for timeless hymns while drawing closer to God.",
+        unit_price  : 450
+        discount_p  : 20,
+        qty         : 50,
+        sold        : 30,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0017_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0017_0001.webp"
+            },
+            
+            {
+                url : "/assets/img/spiritual/spiritual0017_0002.webp"
+            },
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Start with Prayer: 250 Prayers for Hope and Strength",
+        specs       : "Do you find it difficult to turn to prayer when you need it most? Do you have trouble finding the words to capture exactly how you’re feeling?  Start with Prayer, by pastor and New York Times bestselling author Max Lucado, will give you the tools you need to feel more comfortable when you communicate with God.",
+        unit_price  : 630
+        discount_p  : 20,
+        qty         : 60,
+        sold        : 30,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0018_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0018_0001.webp"
+            },
+                                        
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Surrender Your Story: Ditch the Myth of Control and Discover Freedom in Trusting God",
+        specs       : "Popular podcaster and self-proclaimed control freak Tara Sun shows how "having everything under control" is overrated--not to mention downright dangerous--and reveals the surprising, lifegiving alternative: only radical surrender to God brings the peace and fulfillment we yearn for.",
+        unit_price  : 1000
+        discount_p  : 90,
+        qty         : 30,
+        sold        : 20,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0019_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0019_0001.webp"
+            },
+                                        
+        ]
+    },
+
+{
+        on_sale     : false,
+        description : "What on Earth Am I Here For? Purpose Driven Life",
+        specs       : "An evangelistic booklet based on the first three chapters of the New York Times #1 bestselling book The Purpose Driven Life.",
+        unit_price  : 55
+        discount_p  : 5,
+        qty         : 90,
+        sold        : 50,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0020_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0020_0001.webp"
+            },
+                                        
+        ]
+    },
 
 ]    
