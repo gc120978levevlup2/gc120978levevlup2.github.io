@@ -71,10 +71,273 @@ https://faithgateway.com/collections/niv-bibles
             {
                 url : "/assets/img/spiritual/spiritual0003_0001.webp"
             },
+            
           
                        
         ]
     },
 
-]
 
+
+    {
+        on_sale     : false,
+        description : "The Berenstain Bears Easter Fun Sticker and Activity Book",
+        specs       : "The Berenstain Bears come to life this joyful Easter season with puzzles, activity pages, coloring pages, and MORE than 50 stickers in this addition to the Living Lights™ series of Berenstain Bears books. This interactive sticker and activity book is great for Berenstain Bears fans and will provide hours of fun.",
+        unit_price  : 240,
+        discount_p  : 20,
+        qty         : 100,
+        sold        : 20,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0004_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0004_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0004_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0004_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0004_0004.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0004_0005.webp"
+            },
+          
+                       
+        ]
+    },
+
+
+    {
+        on_sale     : false,
+        description : "Jesus Calling: The Story of Easter (picture book)",
+        specs       : "Jesus Calling®: The Story of Easter from bestselling author Sarah Young uses storytelling from throughout the Bible, simple Bible verses, and short Jesus Calling® devotions to show kids how Easter was part of God's plan from the very beginning.",
+        unit_price  : 540,
+        discount_p  : 40,
+        qty         : 100,
+        sold        : 20,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0005_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0005_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0005_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0005_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0005_0004.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0005_0005.webp"
+            },
+          
+                       
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "The Easter Story for Children",
+        specs       : "In this beautifully illustrated Easter picture book from bestselling authors Max Lucado, Randy Frazee, and Karen Hill, kids learn about the death and resurrection of Jesus, whose story is filled with love for us all.",
+        unit_price  : 225,
+        discount_p  : 25,
+        qty         : 100,
+        sold        : 20,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0006_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0006_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0006_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0006_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0006_0004.webp"
+            },
+            
+          
+                       
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "The Beginner's Bible Come Celebrate Easter Sticker and Activity Book",
+        specs       : "If your family is a fan of The Beginner’s Bible, your children will enjoy The Beginner’s Bible Come Celebrate Easter Sticker and Activity Book, featuring The Beginner’s Bible recognizable art and easy-to-understand written content.",
+        unit_price  : 240,
+        discount_p  : 25,
+        qty         : 100,
+        sold        : 30,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0007_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0007_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0007_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0007_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0007_0004.webp"
+            },
+                      
+                       
+        ]
+    },
+    
+
+    {
+        on_sale     : false,
+        description : "The Beginner's Bible Come Celebrate Easter Sticker and Activity Book",
+        specs       : "If your family is a fan of The Beginner’s Bible, your children will enjoy The Beginner’s Bible Come Celebrate Easter Sticker and Activity Book, featuring The Beginner’s Bible recognizable art and easy-to-understand written content.",
+        unit_price  : 240,
+        discount_p  : 25,
+        qty         : 100,
+        sold        : 30,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0007_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0007_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0007_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0007_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0007_0004.webp"
+            },
+                             
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Twas the Morning of Easter",
+        specs       : "Celebrate the story of Jesus’ resurrection in a fresh way as beloved, bestselling author Glenys Nellist shares the Bible stories of the season in a familiar rhythm and rhyme that children will love, following the classic style of the iconic 'Twas the Night Before Christmas.",
+        unit_price  : 540,
+        discount_p  : 50,
+        qty         : 100,
+        sold        : 30,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0008_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0008_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0008_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0008_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0008_0004.webp"
+            },
+                      
+                       
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Twas the Morning of Easter",
+        specs       : "Celebrate the story of Jesus’ resurrection in a fresh way as beloved, bestselling author Glenys Nellist shares the Bible stories of the season in a familiar rhythm and rhyme that children will love, following the classic style of the iconic 'Twas the Night Before Christmas.",
+        unit_price  : 540,
+        discount_p  : 50,
+        qty         : 100,
+        sold        : 30,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0008_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0008_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0008_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0008_0003.webp"
+            },   
+
+        ]                                
+
+    },    
+    
+
+    {
+        on_sale     : false,
+        description : "The Wonder of Creation: 100 More Devotions About God and Science",
+        specs       : "In this captivating follow-up to the bestselling kids' devotionals Indescribable and How Great Is Our God, discover more mind-blowing, faith-building scientific facts and biblical truths about the wonder of God's creation from author, speaker, and founder of the Passion movement Louie Giglio.",
+        unit_price  : 500,
+        discount_p  : 40,
+        qty         : 100,
+        sold        : 30,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0009_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0009_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0009_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0009_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0009_0004.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0009_0004.webp"
+            },
+                             
+        ]
+    },
+
+{
+        on_sale     : false,
+        description : "40 Days With Jesus: Celebrating His Presence",
+        specs       : "Spend 40 days with Jesus—from the time leading up to His death on Good Friday to the celebration of His resurrection on Easter Sunday—and celebrate His presence as never before. Select devotions from Sarah Young’s bestselling Jesus Calling have been compiled to create an experience of closeness with the Savior during any time of the year.",
+        unit_price  : 100
+        discount_p  : 20,
+        qty         : 80,
+        sold        : 50,
+        review_rate : 4,
+        main_image  : "/assets/img/spiritual/spiritual0010_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0010_0001.webp"
+            },
+            
+                             
+        ]
+    },
+
+
+]    
