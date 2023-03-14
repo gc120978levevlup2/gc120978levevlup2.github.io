@@ -38,15 +38,14 @@ https://www.amazon.com/s?k=pet+care+products+for+dogs&crid=3L5T9V7RTTH4F&sprefix
         ]
     },
 
-
     {
         on_sale     : true,
         description : "Bonve Pet Dog Nail Grinder",
         specs       : "Upgraded Cat Dog Nail Trimmers Super Quiet Dog Nail Clipper with 2 Grinding Wheels, USB Rechargeable Pet Nail Clippers for Small",
         unit_price  : 1000,
-        discount_p  : 20,
+        discount_p  : 5,
         qty         : 200,
-        sold        : 40,
+        sold        : 30,
         review_rate : 5,
         main_image  : "/assets/img/animal_welfare/anw0002_00001.jpg",
         images      : [
@@ -73,8 +72,293 @@ https://www.amazon.com/s?k=pet+care+products+for+dogs&crid=3L5T9V7RTTH4F&sprefix
         ]
     },
 
+    {
+        on_sale     : false,
+        description : "Vet’s Best Dog Toothbrush and Enzymatic Toothpaste Set",
+        specs       : "Teeth Cleaning and Fresh Breath Kit with Dental Care Guide | Vet Formulated",
+        unit_price  : 575,
+        discount_p  : 15,
+        qty         : 250,
+        sold        : 100,
+        review_rate : 5,
+        main_image  : "/assets/img/animal_welfare/anw0003_00001.jpg",
+        images      : [
 
-    
+            {
+                url : "/assets/img/animal_welfare/anw0003_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00006.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00007.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00008.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0003_00009.jpg"
+            },
+
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Plaque Banish",
+        specs       : "100% Natural Plaque Off & Tartar Remover For Dogs & Cats | Freshen Breath For Dogs & Cats | 6.3oz (180g) | Support Healthy Gums",
+        unit_price  : 850,
+        discount_p  : 0,
+        qty         : 100,
+        sold        : 15,
+        review_rate : 4,
+        main_image  : "/assets/img/animal_welfare/anw0004_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0004_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0004_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0004_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0004_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0004_00005.jpg"
+            },
+          
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Vet's Best Dental Care Finger Wipes",
+        specs       : "Reduces Plaque & Freshens Breath | Teeth Cleaning Finger Wipes for Dogs & Cats | 50 Disposable Wipes",
+        unit_price  : 700,
+        discount_p  : 0,
+        qty         : 100,
+        sold        : 18,
+        review_rate : 4,
+        main_image  : "/assets/img/animal_welfare/anw0005_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0005_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0005_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0005_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0005_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0005_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0005_00006.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0005_00007.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0005_00008.jpg"
+            },
+          
+        ]
+    },
+
+    {
+        on_sale     : true,
+        description : "HOP Home of Paws Short Hair Dog Brush",
+        specs       : "Pet Brushing Comb for Short Hair Coats – Detangling and Shedding Coat Hair Remover",
+        unit_price  : 850,
+        discount_p  : 10,
+        qty         : 50,
+        sold        : 35,
+        review_rate : 5,
+        main_image  : "/assets/img/animal_welfare/anw0006_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0006_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0006_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0006_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0006_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0006_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0006_00006.jpg"
+            },
+
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "HAWATOUR Dog Nail Clippers",
+        specs       : "Professional Pet Nail Clipper & Trimmers with Safety Guard to Avoid Over Cutting, Grooming Razor with Nail File for Medium and Large Dog and Cat, Red",
+        unit_price  : 400,
+        discount_p  : 0,
+        qty         : 110,
+        sold        : 50,
+        review_rate : 4,
+        main_image  : "/assets/img/animal_welfare/anw0007_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0007_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0007_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0007_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0007_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0007_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0007_00006.jpg"
+            },
+
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "Wawash Pet Care",
+        specs       : "Oatmeal & Coconut Dog Shampoo, Natural Dog Shampoo for Itchy & Dry Skin Relief. 16 Fl. Oz",
+        unit_price  : 750,
+        discount_p  : 0,
+        qty         : 80,
+        sold        : 20,
+        review_rate : 4,
+        main_image  : "/assets/img/animal_welfare/anw0008_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0008_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0008_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0008_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0008_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0008_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0008_00006.jpg"
+            },
+
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "WashBar Natural Dog Soap Bar",
+        specs       : "Natural Dog Shampoo Bar and Dog Shampoo for Smelly Dogs with Sensitive Skin, Easier to Use Than Liquid Pet Shampoo with No Plastic Bottle Waste, 2-Pack",
+        unit_price  : 850,
+        discount_p  : 0,
+        qty         : 80,
+        sold        : 25,
+        review_rate : 4,
+        main_image  : "/assets/img/animal_welfare/anw0009_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0009_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0009_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0009_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0009_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0009_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0009_00006.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0009_00007.jpg"
+            },
+
+        ]
+    },
+
+    {
+        on_sale     : false,
+        description : "ROPO Dog Grooming Brush",
+        specs       : "Pet Shampoo Bath Brush Soothing Massage Rubber Comb with Adjustable Ring Handle for Long Short Haired Dogs and Cats 2pcs",
+        unit_price  : 400,
+        discount_p  : 0,
+        qty         : 100,
+        sold        : 50,
+        review_rate : 5,
+        main_image  : "/assets/img/animal_welfare/anw00010_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw00010_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw00010_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw00010_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw00010_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw00010_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw00010_00006.jpg"
+            },
+            
+        ]
+    },
+
 
 
 ]
