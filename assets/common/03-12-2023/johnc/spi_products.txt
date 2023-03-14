@@ -56,4 +56,34 @@ https://faithgateway.com/collections/niv-bibles
     },
 
 
+    {
+        on_sale     : false,
+        description : "NIV, Holy Bible, Larger Print",
+        specs       : "A low-cost outreach Bible with added features in a readable 9. 6-point type size.",
+        unit_price  : 209,
+        discount_p  : 10,
+        qty         : 100,
+        sold        : 35,
+        review_rate : 5,
+        main_image  : "/assets/img/spiritual/spiritual0003_0001.webp",
+        images      : [
+
+            {
+                url : "/assets/img/spiritual/spiritual0003_0001.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0003_0002.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0003_0003.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0003_0004.webp"
+            },
+            {
+                url : "/assets/img/spiritual/spiritual0003_0005.webp"
+            },                       
+        ]
+    },
+
 ]

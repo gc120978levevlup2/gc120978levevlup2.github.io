@@ -39,6 +39,41 @@ https://www.amazon.com/s?k=pet+care+products+for+dogs&crid=3L5T9V7RTTH4F&sprefix
     },
 
 
+    {
+        on_sale     : true,
+        description : "Bonve Pet Dog Nail Grinder",
+        specs       : "Upgraded Cat Dog Nail Trimmers Super Quiet Dog Nail Clipper with 2 Grinding Wheels, USB Rechargeable Pet Nail Clippers for Small",
+        unit_price  : 1000,
+        discount_p  : 20,
+        qty         : 200,
+        sold        : 40,
+        review_rate : 5,
+        main_image  : "/assets/img/animal_welfare/anw0002_00001.jpg",
+        images      : [
+
+            {
+                url : "/assets/img/animal_welfare/anw0002_00001.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0002_00002.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0002_00003.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0002_00004.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0002_00005.jpg"
+            },
+            {
+                url : "/assets/img/animal_welfare/anw0002_00006.jpg"
+            },
+
+        ]
+    },
+
+
     
 
 
