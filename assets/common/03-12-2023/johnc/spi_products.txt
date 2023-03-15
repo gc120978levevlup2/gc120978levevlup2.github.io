@@ -730,7 +730,7 @@ https://faithgateway.com/collections/niv-bibles
         ]
     },
 
-{
+    {
         on_sale     : false,
         description : "Sitting at the Feet of Rabbi Jesus: How the Jewishness of Jesus Can Transform Your Faith",
         specs       : "Have you ever wondered what it would be like to journey back to the first century and sit at the feet of Rabbi Jesus as one of his Jewish disciples? Join Ann Spangler and Lois Tverberg as they share a rare opportunity to know Jesus as his first disciples did."
