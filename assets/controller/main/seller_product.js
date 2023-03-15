@@ -404,358 +404,1086 @@ seller_product_form_submit(() => {
 $('#add_bulk_products').click(function (e) { 
     e.preventDefault();
     let products = [
+
+
         {
             on_sale     : false,
-            description : "Guzekier Pet Dog Grooming Hammock Harness",
-            specs       : "for Cats & Dogs, Dog Sling for Grooming, Dog Hammock Restraint Bag with Nail Clippers/Trimmer, Nail File, Pet",
-            unit_price  : 900,
+            description : "OKRA VEGETABLE SEEDS",
+            specs       : "Approx. no. of seeds: 40-50 seeds, Germination Rate: 92% and above, Purity: 99%",
+            unit_price  : 27,
             discount_p  : 10,
-            qty         : 100,
-            sold        : 20,
-            review_rate : 4,
-            main_image  : "/assets/img/animal_welfare/anw0001_00001.jpg",
-            images      : [
-    
-                {
-                    url : "/assets/img/animal_welfare/anw0001_00001.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0001_00002.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0001_00003.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0001_00004.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0001_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0001_00006.jpg"
-                },
-    
-            ]
-        },
-    
-        {
-            on_sale     : true,
-            description : "Bonve Pet Dog Nail Grinder",
-            specs       : "Upgraded Cat Dog Nail Trimmers Super Quiet Dog Nail Clipper with 2 Grinding Wheels, USB Rechargeable Pet Nail Clippers for Small",
-            unit_price  : 1000,
-            discount_p  : 5,
-            qty         : 200,
-            sold        : 30,
+            qty         : 1000,
+            sold        : 200,
             review_rate : 5,
-            main_image  : "/assets/img/animal_welfare/anw0002_00001.jpg",
+            main_image  : "/assets/img/farm_products/farm0001_00001.webp",
             images      : [
     
                 {
-                    url : "/assets/img/animal_welfare/anw0002_00001.jpg"
+                    url : "/assets/img/farm_products/farm0001_00001.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0002_00002.jpg"
+                    url : "/assets/img/farm_products/farm0001_00002.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0002_00003.jpg"
+                    url : "/assets/img/farm_products/farm0001_00003.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0002_00004.jpg"
+                    url : "/assets/img/farm_products/farm0001_00004.webp"
                 },
-                {
-                    url : "/assets/img/animal_welfare/anw0002_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0002_00006.jpg"
-                },
-    
             ]
         },
     
         {
             on_sale     : false,
-            description : "Vet’s Best Dog Toothbrush and Enzymatic Toothpaste Set",
-            specs       : "Teeth Cleaning and Fresh Breath Kit with Dental Care Guide | Vet Formulated",
-            unit_price  : 575,
-            discount_p  : 15,
-            qty         : 250,
+            description : "WHITE STEM PECHAY SEEDS",
+            specs       : "Approx. no. of seeds: 1,644 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 21,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 200,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0002_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0002_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0002_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0002_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0002_00004.webp"
+                },
+            ]
+        },      
+    
+        {
+            on_sale     : false,
+            description : "EGGPLANT LONG PURPLE VEGETABLE SEEDS",
+            specs       : "Approx. no. of seeds: 123 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 28,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 200,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0003_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0003_00001.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0003_00002.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0003_00003.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0003_00004.webp"
+                },
+            ]
+        },
+    
+         {
+            on_sale     : false,
+            description : "BIG WAVE LETTUCE SEEDS",
+            specs       : "Approx. no. of seeds: 1000 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 19,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0004_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0004_00001.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0004_00002.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0004_00003.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0004_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "SWEET PEPPER SEEDS",
+            specs       : "Approx. no. of seeds: 60 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 25,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0005_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0005_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0005_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0005_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0005_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "SUPER POPE TOMATO",
+            specs       : "Approx. no. of seeds: 150 seeds, Germination Rate: 85% and above, Purity: 99%",
+            unit_price  : 25,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0006_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0006_00001.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0006_00002.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0006_00003.webp"
+                },
+                 {
+                    url : "/assets/img/farm_products/farm0006_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "SMOOTH PATOLA SEEDS",
+            specs       : "Approx. no. of seeds: 20 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 25,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0007_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0007_00001.webp"
+                },
+               {
+                    url : "/assets/img/farm_products/farm0007_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0007_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0007_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "ROMAINE LETTUCE SEEDS",
+            specs       : "Approx. no. of seeds: 882 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 15,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0008_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0008_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0008_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0008_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0008_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "SUPER SWEET CORN SEEDS",
+            specs       : "Approx. no. of seeds: 60 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 20,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0009_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0009_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0009_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0009_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0009_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "JUMBO GIANT SUNFLOWER SEEDS",
+            specs       : "Approx. no. of seeds: 1Kilogram, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 109,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0010_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0010_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0010_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0010_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0010_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "SNOW WHITE RADISH VEGETABLE SEEDS",
+            specs       : "Approx. no. of seeds: 28 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 32,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0011_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0011_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0011_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0011_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0011_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "PATOLA TAGALOG SEEDS",
+            specs       : "Approx. no. of seeds: 20 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 25,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0012_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0012_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0012_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0012_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0012_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "AMPALAYA LONG",
+            specs       : "Approx. no. of seeds: 11 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 49,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0013_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0013_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0013_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0013_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0013_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "RED BEET SEEDS",
+            specs       : "Approx. no. of seeds: 105 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 26,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0014_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0014_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0014_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0014_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0014_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "FRENCH BEAN SEEDS",
+            specs       : "Approx. no. of seeds: 18 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 35,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0015_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0015_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0015_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0015_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0015_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "KURODA CARROT SEEDS",
+            specs       : "Approx. no. of seeds: 810 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 39,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 3,
+            main_image  : "/assets/img/farm_products/farm0016_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0016_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0016_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0016_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0016_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "WHITE LAGKITAN CORN SEEDS",
+            specs       : "Approx. no. of seeds: 30 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 23,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0017_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0017_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0017_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0017_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0017_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "High Yielding SQUASH",
+            specs       : "Approx. no. of seeds: 12 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 24,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0018_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0018_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0018_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0018_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0018_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Bonsai Kalamansi Seeds",
+            specs       : "Approx. no. of seeds: 10 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 37.02,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0019_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0019_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0019_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0019_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0019_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Wheat Grass Seeds",
+            specs       : "Approx. no. of seeds: 1 Kilogram, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 152,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 102,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0020_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0020_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0020_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0020_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0020_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "GREEN SPINACH / AMARANTH SEEDS",
+            specs       : "Approx. no. of seeds: 2,470 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 26,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 102,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0021_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0021_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0021_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0021_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0021_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "HYBRID SUGAR WAXY CORN",
+            specs       : "Approx. no. of seeds: 20 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 27,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 110,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0022_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0022_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0022_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0022_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0022_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "THAI EGGPLANT DWARF",
+            specs       : "Approx. no. of seeds: 128 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 59,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 110,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0023_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0023_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0023_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0023_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0023_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Mustasa Seeds",
+            specs       : "Approx. no. of seeds: 400 seeds, Germination Rate: 89% and above, Purity: 99%",
+            unit_price  : 6.86,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 110,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0024_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0024_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0024_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0024_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0024_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Strawberry Bonsai Seeds",
+            specs       : "Approx. no. of seeds: 20 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 37,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 80,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0025_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0025_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0025_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0025_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0025_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "ILOCOS AMPALAYA / ROUND BITTER GOURD SEEDS",
+            specs       : "Approx. no. of seeds: 10 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 46,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 80,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0026_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0026_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0026_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0026_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0026_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "SUPER SWEET CORN SEEDS",
+            specs       : "Approx. no. of seeds: 60 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 20,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 80,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0027_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0027_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0027_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0027_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0027_00004.webp"
+                },
+            ]
+        },
+    
+        
+        {
+            on_sale     : false,
+            description : "SILI PANIGANG / Siling Haba / Hot Pepper Green / Bicol Express Chili Seeds",
+            specs       : "Approx. no. of seeds: 160 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 54,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0028_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0028_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0028_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0028_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0028_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "RED SPINACH SEEDS",
+            specs       : "Approx. no. of seeds: 2,125 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 25,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 10,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0029_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0029_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0029_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0029_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0029_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Cauliflower Seeds",
+            specs       : "Approx. no. of seeds: 20 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 32,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 10,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0030_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0030_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0030_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0030_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0030_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Hot Pepper Seeds / Jalapeno Seeds",
+            specs       : "Approx. no. of seeds: 76 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 76,
+            discount_p  : 10,
+            qty         : 1,
             sold        : 100,
             review_rate : 5,
-            main_image  : "/assets/img/animal_welfare/anw0003_00001.jpg",
+            main_image  : "/assets/img/farm_products/farm0031_00001.webp",
             images      : [
     
                 {
-                    url : "/assets/img/animal_welfare/anw0003_00001.jpg"
+                    url : "/assets/img/farm_products/farm0031_00001.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0003_00002.jpg"
+                    url : "/assets/img/farm_products/farm0031_00002.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0003_00003.jpg"
+                    url : "/assets/img/farm_products/farm0031_00003.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0003_00004.jpg"
+                    url : "/assets/img/farm_products/farm0031_00004.webp"
                 },
-                {
-                    url : "/assets/img/animal_welfare/anw0003_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0003_00006.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0003_00007.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0003_00008.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0003_00009.jpg"
-                },
-    
             ]
         },
     
         {
             on_sale     : false,
-            description : "Plaque Banish",
-            specs       : "100% Natural Plaque Off & Tartar Remover For Dogs & Cats | Freshen Breath For Dogs & Cats | 6.3oz (180g) | Support Healthy Gums",
-            unit_price  : 850,
-            discount_p  : 0,
-            qty         : 100,
-            sold        : 15,
-            review_rate : 4,
-            main_image  : "/assets/img/animal_welfare/anw0004_00001.jpg",
-            images      : [
-    
-                {
-                    url : "/assets/img/animal_welfare/anw0004_00001.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0004_00002.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0004_00003.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0004_00004.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0004_00005.jpg"
-                },
-              
-            ]
-        },
-    
-        {
-            on_sale     : false,
-            description : "Vet's Best Dental Care Finger Wipes",
-            specs       : "Reduces Plaque & Freshens Breath | Teeth Cleaning Finger Wipes for Dogs & Cats | 50 Disposable Wipes",
-            unit_price  : 700,
-            discount_p  : 0,
-            qty         : 100,
-            sold        : 18,
-            review_rate : 4,
-            main_image  : "/assets/img/animal_welfare/anw0005_00001.jpg",
-            images      : [
-    
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00001.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00002.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00003.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00004.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00006.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00007.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0005_00008.jpg"
-                },
-              
-            ]
-        },
-    
-        {
-            on_sale     : true,
-            description : "HOP Home of Paws Short Hair Dog Brush",
-            specs       : "Pet Brushing Comb for Short Hair Coats – Detangling and Shedding Coat Hair Remover",
-            unit_price  : 850,
+            description : "Teddy Bear Sunflower Seeds",
+            specs       : "Approx. no. of seeds: 10 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 36,
             discount_p  : 10,
-            qty         : 50,
-            sold        : 35,
+            qty         : 1,
+            sold        : 100,
             review_rate : 5,
-            main_image  : "/assets/img/animal_welfare/anw0006_00001.jpg",
+            main_image  : "/assets/img/farm_products/farm0032_00001.webp",
             images      : [
     
                 {
-                    url : "/assets/img/animal_welfare/anw0006_00001.jpg"
+                    url : "/assets/img/farm_products/farm0032_00001.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0006_00002.jpg"
+                    url : "/assets/img/farm_products/farm0032_00002.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0006_00003.jpg"
+                    url : "/assets/img/farm_products/farm0032_00003.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw0006_00004.jpg"
+                    url : "/assets/img/farm_products/farm0032_00004.webp"
                 },
-                {
-                    url : "/assets/img/animal_welfare/anw0006_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0006_00006.jpg"
-                },
-    
             ]
         },
     
         {
             on_sale     : false,
-            description : "HAWATOUR Dog Nail Clippers",
-            specs       : "Professional Pet Nail Clipper & Trimmers with Safety Guard to Avoid Over Cutting, Grooming Razor with Nail File for Medium and Large Dog and Cat, Red",
-            unit_price  : 400,
-            discount_p  : 0,
-            qty         : 110,
-            sold        : 50,
-            review_rate : 4,
-            main_image  : "/assets/img/animal_welfare/anw0007_00001.jpg",
-            images      : [
-    
-                {
-                    url : "/assets/img/animal_welfare/anw0007_00001.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0007_00002.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0007_00003.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0007_00004.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0007_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0007_00006.jpg"
-                },
-    
-            ]
-        },
-    
-        {
-            on_sale     : false,
-            description : "Wawash Pet Care",
-            specs       : "Oatmeal & Coconut Dog Shampoo, Natural Dog Shampoo for Itchy & Dry Skin Relief. 16 Fl. Oz",
-            unit_price  : 750,
-            discount_p  : 0,
-            qty         : 80,
-            sold        : 20,
-            review_rate : 4,
-            main_image  : "/assets/img/animal_welfare/anw0008_00001.jpg",
-            images      : [
-    
-                {
-                    url : "/assets/img/animal_welfare/anw0008_00001.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0008_00002.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0008_00003.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0008_00004.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0008_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0008_00006.jpg"
-                },
-    
-            ]
-        },
-    
-        {
-            on_sale     : false,
-            description : "WashBar Natural Dog Soap Bar",
-            specs       : "Natural Dog Shampoo Bar and Dog Shampoo for Smelly Dogs with Sensitive Skin, Easier to Use Than Liquid Pet Shampoo with No Plastic Bottle Waste, 2-Pack",
-            unit_price  : 850,
-            discount_p  : 0,
-            qty         : 80,
-            sold        : 25,
-            review_rate : 4,
-            main_image  : "/assets/img/animal_welfare/anw0009_00001.jpg",
-            images      : [
-    
-                {
-                    url : "/assets/img/animal_welfare/anw0009_00001.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0009_00002.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0009_00003.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0009_00004.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0009_00005.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0009_00006.jpg"
-                },
-                {
-                    url : "/assets/img/animal_welfare/anw0009_00007.jpg"
-                },
-    
-            ]
-        },
-    
-        {
-            on_sale     : false,
-            description : "ROPO Dog Grooming Brush",
-            specs       : "Pet Shampoo Bath Brush Soothing Massage Rubber Comb with Adjustable Ring Handle for Long Short Haired Dogs and Cats 2pcs",
-            unit_price  : 400,
-            discount_p  : 0,
-            qty         : 100,
-            sold        : 50,
+            description : "ROMA TOMATO Seeds",
+            specs       : "Approx. no. of seeds: 150 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 39,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 100,
             review_rate : 5,
-            main_image  : "/assets/img/animal_welfare/anw00010_00001.jpg",
+            main_image  : "/assets/img/farm_products/farm0033_00001.webp",
             images      : [
     
                 {
-                    url : "/assets/img/animal_welfare/anw00010_00001.jpg"
+                    url : "/assets/img/farm_products/farm0033_00001.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw00010_00002.jpg"
+                    url : "/assets/img/farm_products/farm0033_00002.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw00010_00003.jpg"
+                    url : "/assets/img/farm_products/farm0033_00003.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw00010_00004.jpg"
+                    url : "/assets/img/farm_products/farm0033_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Red Sorghum Seeds",
+            specs       : "Approx. no. of seeds: 1 Kilogram, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 83,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0034_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0034_00001.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw00010_00005.jpg"
+                    url : "/assets/img/farm_products/farm0034_00002.webp"
                 },
                 {
-                    url : "/assets/img/animal_welfare/anw00010_00006.jpg"
+                    url : "/assets/img/farm_products/farm0034_00003.webp"
                 },
-                
+                {
+                    url : "/assets/img/farm_products/farm0034_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "BATAO SEEDS",
+            specs       : "Approx. no. of seeds: 5 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 40,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0035_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0035_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0035_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0035_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0035_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "GIANT SUNFLOWER BLACK OIL SEEDS",
+            specs       : "Approx. no. of seeds: 10 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 69,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 150,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0036_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0036_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0036_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0036_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0036_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "ZUCCHINI VEGETABLE SEEDS",
+            specs       : "Approx. no. of seeds: 8 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 86,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 100,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0037_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0037_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0037_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0037_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0037_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Mexican Turnip Seeds",
+            specs       : "Approx. no. of seeds: 20 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 148,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 100,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0038_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0038_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0038_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0038_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0038_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "Dun Pea Seeds for sprouts and microgreens",
+            specs       : "Approx. no. of seeds: 1 Kilogram, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 174,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 100,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0039_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0039_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0039_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0039_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0039_00004.webp"
+                },
+            ]
+        },
+    
+        {
+            on_sale     : false,
+            description : "SWEET PEPPER SEEDS",
+            specs       : "Approx. no. of seeds: 60 seeds, Germination Rate: 90% and above, Purity: 99%",
+            unit_price  : 25,
+            discount_p  : 10,
+            qty         : 1,
+            sold        : 100,
+            review_rate : 5,
+            main_image  : "/assets/img/farm_products/farm0040_00001.webp",
+            images      : [
+    
+                {
+                    url : "/assets/img/farm_products/farm0040_00001.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0040_00002.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0040_00003.webp"
+                },
+                {
+                    url : "/assets/img/farm_products/farm0040_00004.webp"
+                },
             ]
         },
     ]
