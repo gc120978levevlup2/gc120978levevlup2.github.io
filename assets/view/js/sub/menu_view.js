@@ -117,7 +117,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
                                 </a>
                             </li>
                             <li class="nav-item ${hide_sel['buyer_dashboard']}">
-                                <a class="nav-link ${selection['buyer_dashboard']}"  href="/assets/view/pages/seller_dashboard.html">
+                                <a class="nav-link ${selection['buyer_dashboard']}"  href="/assets/view/pages/buyer_dashboard.html">
                                     Dashboard
                                 </a>
                             </li>

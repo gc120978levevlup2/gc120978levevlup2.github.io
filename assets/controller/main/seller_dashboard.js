@@ -84,7 +84,7 @@ admin_new_cat_form_submit(() => {
                                     >
                                         <i class="bi bi-eraser"></i>
                                         <br>
-                                        Remove Product
+                                        Remove Category
                                     </button>
                                 </div>
                                 <div class="col-6">
@@ -96,7 +96,7 @@ admin_new_cat_form_submit(() => {
                                         >
                                         <i class="bi bi-pen"></i>   
                                         <br>
-                                        Modify Product
+                                        Modify Category
                                     </button>
                                 </div>
                             </div>
@@ -182,6 +182,7 @@ admin_mod_cat_form_submit(() => {
         update_category(category, categories => { // on successfully saved category
            //sconsole.log(categories)
            //window.location = "/assets/view/pages/seller_product.html"
+           //alert(categories[0].id)
            create_saved_category(categories[0])
            window.history.back()
        }, () => { // on failed to save category

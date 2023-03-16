@@ -94,4 +94,24 @@ li a:hover{
     width: 100vw;
   }
 
+  .image-selection:hover {
+    cursor: pointer;
+    border: 2px solid rgba(255, 0, 0, 0.356);
+  }
 
+  .categories-selection:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
+  .categories-selection:active {
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
+.category-list{
+  a{
+    text-decoration: none;
+    color:rgb(110, 108, 108)
+  }
+}

@@ -40,16 +40,30 @@ const read_sellers = async (email1 = null, on_successfull_transaction = null) =>
     }
 }
 
+const read_sellers2 = async (email1 = null) => {
+    sellers = []
+    const {data,error} = await supa
+                                .from("sellers")
+                                .select('*')
+    data.forEach((item) => {
+        sellers.push(item)
+    })
+
+    return (
+        sellers.filter((seller) => seller.email1 === email1)
+    )
+}
+
 const create_seller = async ( seller , on_successfull_transaction = null, on_failed_transaction) => {
-    read_sellers (seller.email1, async data => {
-        if (data.length === 0){
+    read_sellers (seller.email1, async data2 => {
+        if (data2.length === 0){
             sellers = []
-            const {data2, error2} = await supa
+            const {data, error} = await supa
                                 .from("sellers")
                                 .insert(seller)
                                 .select()
                                 
-            data2.forEach((item) => {
+            data.forEach((item) => {
                 sellers.push(item)
             })
 
@@ -99,6 +113,7 @@ const delete_seller = async ( email1 , on_successfull_transaction = null) => {
 export {
          create_seller, 
          read_sellers,
+         read_sellers2,
          update_seller,
          delete_seller,
 }
