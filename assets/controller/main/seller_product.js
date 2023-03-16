@@ -401,7 +401,7 @@ seller_product_form_submit(() => {
 
 $('#add_bulk_products').click(function (e) { 
     e.preventDefault();
-    // Sir Rey
+    /* Sir Rey
     let products = [
 
 
@@ -1486,9 +1486,9 @@ $('#add_bulk_products').click(function (e) {
             ]
         },
     ]
-    //
+    */
 
-    /* Sir Dave
+    // Sir Dave
     let products = [
                 {
                     on_sale     : true,
@@ -2894,7 +2894,7 @@ $('#add_bulk_products').click(function (e) {
 
             ]
 
-    */
+    //
 
     /* Sir John
     let products = [
