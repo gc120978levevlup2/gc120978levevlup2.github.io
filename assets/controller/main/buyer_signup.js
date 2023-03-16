@@ -199,6 +199,7 @@ buyer_new_form_submit(() => {
     read_users(user.email1, found_matching_sellers => {
         if (found_matching_sellers.length === 0){
             create_user(user, users => {
+                //console.log(users.length)
                 if (users.length === 1) {
                     alert(`Successfully registered seller, ${users[0].email1}: ${users[0].name}.`)
                     window.location = "/assets/view/pages/login.html"

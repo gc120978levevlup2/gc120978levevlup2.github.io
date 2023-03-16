@@ -27,7 +27,7 @@ const read_users = async (email1 = null, on_successfull_transaction = null) => {
     const {data,error} = await supa
                                 .from("users")
                                 .select('*')
-    console.log(data)
+    //console.log(data)
     data.forEach((item) => {
         users.push(item)
     })
@@ -42,15 +42,17 @@ const read_users = async (email1 = null, on_successfull_transaction = null) => {
 }
 
 const create_user = async ( user , on_successfull_transaction = null, on_failed_transaction) => {
-    read_users (user.email1, async data => {
-        if (data.length === 0){
+    read_users (user.email1, async data2 => {
+        if (data2.length === 0){
             users = []
-            const {data2, error2} = await supa
+            const {data, error} = await supa
                                 .from("users")
                                 .insert(user)
                                 .select()
-                                
-            data2.forEach((item) => {
+            
+            //console.log(`data:`)
+            //console.log(data)
+            data.forEach((item) => {
                 users.push(item)
             })
 

@@ -40,7 +40,7 @@ export const seller_product_view = (data) => {
                         <i class="bi bi-clipboard-plus"></i>
                         Add Product
                     </button>
-                    <button type="button" class="btn btn-outline-warning me-4 d-none" style="float: right" id="add_bulk_products">
+                    <button type="button" class="btn btn-outline-warning me-4 d-none1" style="float: right" id="add_bulk_products">
                         <i class="bi bi-clipboard-plus"></i>
                         Add Bulk Products
                     </button>

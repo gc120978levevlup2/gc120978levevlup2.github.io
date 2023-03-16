@@ -2,8 +2,8 @@
 let items = []
 
 // models
-import { supa      } from "/assets/model/remote/supabase.js"
-import { del_image } from "/assets/model/remote/file.js"
+import { supa          } from "/assets/model/remote/supabase.js"
+import { del_image     } from "/assets/model/remote/file.js"
 
 const create_item = async ( item , on_successfull_transaction = null) => {
     items = []
@@ -59,18 +59,18 @@ const read_items_fr_seller = async (seller = null, on_successfull_transaction = 
     }
 }
 
-const read_items_fr_category = async (category = null, on_successfull_transaction = null) => {
+const read_items_fr_category = async (category_id = null, on_successfull_transaction = null) => {
     items = []
     const {data,error} = await supa
                                 .from("items")
-                                .select('*')
+                                .select('*, sellers(name, address)')
     data.forEach((item) => {
         items.push(item)
     })
 
     if (on_successfull_transaction){
-        if (seller){
-            on_successfull_transaction(items.filter((item) => item.category_id === category.id))
+        if (category_id ){
+            on_successfull_transaction(items.filter((item) => item.category_id === category_id ))
         }else{
             on_successfull_transaction(items)
         }
@@ -81,15 +81,17 @@ const read_items_fr_search = async (search = null, on_successfull_transaction = 
     items = []
     const {data,error} = await supa
                                 .from("items")
-                                .select('*')
-    data.forEach((item) => {
-        items.push(item)
-    })
+                                .select('*, sellers(name, address)')
+
+    for (let item of data){
+        items.push(item) 
+    }
 
     if (on_successfull_transaction){
-        if (seller){
-            on_successfull_transaction(items.filter((item) => (item.description.toUpperCase().includes(search) || item.specs.toUpperCase().includes(search)) ))
-        }else{
+        if (search){
+           on_successfull_transaction(items.filter(item => (item.description.toUpperCase().includes(search.toUpperCase()) || item.specs.toUpperCase().includes(search.toUpperCase())) ))
+        }else
+        {
             on_successfull_transaction(items)
         }
     }

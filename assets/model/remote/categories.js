@@ -80,7 +80,7 @@ const update_category = async ( category , on_successfull_transaction = null) =>
     const {data, error} = await supa
                           .from("categories")
                           .update(category)
-                          .eq('name', category.name)
+                          .eq('id', category.id)
                           .select()
     data.forEach((item) => {
         categories.push(item)
