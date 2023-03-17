@@ -57,13 +57,15 @@ function getProductListInnerHTMLof_users_cart(items){
                                     class="position-absolute top-0 start-0"
                                 />` : ''}
                             <!-- Modal Trigger -->
-                            <img
-                                height="150px"
-                                src="${item.items.main_image}"
-                                alt="${item.items.description}"
-                                class="card-img-top image-selection"
-                                data-bs-toggle="modal" data-bs-target="#staticBackdrop-${item.id}"
-                            />
+                            <div class="image-selection mx-auto" style="height:150px;width:100%;overflow:hidden;">
+                                <img
+                                    width="100%"
+                                    src="${item.items.main_image}"
+                                    alt="${item.items.description}"
+                                    style="min-height:150px"
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop-${item.id}"
+                                />
+                            </div>
                             <div class="card-body" align="center" style="padding-top:1px">
                                 <h4 class="card-title" style="height:30px;overflow-y:hidden;margin-bottom:1px">${item.items.description}</h4>
                                 <p class="card-text" style="height:75px;overflow-y:hidden;margin-bottom:0">${item.items.specs}</p>
@@ -197,8 +199,8 @@ read_categories(null, categories => {
              <div class="col mb-5 category-list" style="color: gray" >
                  <a href="/assets/view/pages/categories.html?id=${value.id}">
                     <div class="card mx-auto  categories-selection shadow" id="cat-btn-${value.id}" style="width:250px; height:215px">
-                        <div class="mx-auto m-2 mb-0 p-1 shadow border border-2">
-                            <img height="90" src="${value.image}" class="card-img-top1" alt="...">
+                        <div class="mx-auto shadow border border-2" style="width:100%;height:100px;overflow:hidden">
+                            <img width="100%" style="" src="${value.image}" class="card-img-top1" alt="...">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title text-center">${value.name}</h5>
