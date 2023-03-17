@@ -244,7 +244,7 @@ export const index_view = (data) => {
                                     <div class="index-button-logo3">
                                         <a target="_blank" href="/assets/view/img/johnc-pic.jpg">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/johnc-pic.jpg" alt="">
-                                            <p> <h3> John Arsenio Cabison </h3></p>
+                                            <p> <h3> John Arsenio<br> Cabison </h3></p>
                                             <hr>
                                             <p> <h5> CEO</h5></p>
                                         </a>
