@@ -21,7 +21,7 @@ export const footer_view = (element_to_connect) => {
                             srcset=""
                             class="rounded-circle"
                         />
-                        <span style="font-weight: bolder; font-size: larger; color:aqua"> <b> myStore </b></span>
+                        <span style="font-weight: bolder; font-size: larger; color:aqua"> <b> 3CCCi </b></span>
                         </h1>
                         <p>Address: 123 Main Street, Anytown, Philippines 12345</p>
                         <p>Phone: (123) 456-7890</p>

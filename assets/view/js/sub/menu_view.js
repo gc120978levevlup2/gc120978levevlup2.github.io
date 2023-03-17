@@ -66,7 +66,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
                             class="rounded-circle"
                             id="main-icon"
                         />
-                        <span style="font-weight: bolder; font-size: larger; color:aqua"> <b> myStore </b></span>
+                        <span style="font-weight: bolder; font-size: larger; color:aqua"> <b> 3CCCi </b></span>
                     </a>
                     
                     <div class="btn-group">
