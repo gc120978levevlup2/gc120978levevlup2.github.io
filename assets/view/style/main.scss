@@ -109,6 +109,51 @@ li a:hover{
     transform: translateY(-5px);
   }
 
+  .index-button-logo:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
+  .index-button-logo{
+    a{
+      text-decoration: none;
+      color:rgb(234, 229, 229)
+    }
+    a:visited{
+      text-decoration: none;
+      color:rgb(249, 248, 248)
+    }
+  }
+
+  .index-button-logo2{
+    a{
+      text-decoration: none;
+      color:rgb(16, 16, 16)
+    }
+    a:visited{
+      text-decoration: none;
+      color:rgb(16, 16, 16)
+    }
+  }
+
+  .index-button-logo3{
+    :hover{
+      text-decoration: none;
+      color:rgb(16, 16, 16);
+      cursor: pointer;
+    }
+
+    a{
+      text-decoration: none;
+      color:rgb(16, 16, 16)
+    }
+
+    a:visited{
+      text-decoration: none;
+      color:rgb(16, 16, 16)
+    }
+  }
+
 .category-list{
   a{
     text-decoration: none;

@@ -27,6 +27,268 @@ export const index_view = (data) => {
     $('#main-body-container').removeClass('container') // remove this to make the container visible
     $('#main-body').html(/*html*/`
 
+        <div class="container bg-primary" style="overflow:hidden;min-height:95vh">
+            <br>
+            <div class="container bg-primary" style="overflow:hidden;height:100%">
+                <div class="row">
+                    <div class="col-md-5 text-white">
+                        <div class="mb-md-5 h-100 d-flex align-items-center">
+                            <div class="row">
+                                <h1 class="text-center align-middle">
+                                    <b><i>3-Corners Community Cooperative Inc</i></b>. 
+                                </h1>
+                                <h5 class="text-center align-middle">
+                                    We are a community cooperative that champions <b><i>Animal Welfare</i></b>, promotes healthy <b><i>Fresh Harvest Food</i></b>, and adheres to <b><i>Spiritual Wellness</i></b>. 
+                                </h5>
+                                <div class="row mt-3 text-center">
+                                    <div class="col-md-4">
+                                        <div class="index-button-logo">
+                                            <a href="/assets/module_ds">
+                                                <img class="rounded-circle shadow" width="80px" src="/assets/module_ds/paws1.jpg" alt="">
+                                                <span>Community Helping Paws</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-md-5">
+                                        <div class="index-button-logo">
+                                            <a href="/assets/module_rl">
+                                                <div class="rounded bg-white p-1">
+                                                    <img class="rounded" width="140px" height="80px" src="/assets/module_rl/images/logo-no-background-removebg-preview.png" alt="">
+                                                </div>
+                                                <p class="mt-2">Local Harvest</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3">
+                                        <div class="index-button-logo w-100">
+                                            <a href="/assets/module_jac">
+                                                <img class="rounded-circle shadow" width="80px" height="80px" src="assets/module_jac/img/psalms-logo.jpg" alt="">
+                                                <p>Book of Psalms</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="mb-2 mb-md-5 mt-sm-5 shadow rounded">
+                            <div class="">
+                                <img width="100%" class="rounded" src="/assets/view/img/4m12.jpg" alt="">    
+                            </div>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container bg-white" style="overflow:hidden;min-height:95vh">
+            <div class="container bg-white" style="overflow:hidden;height:100%">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="mb-2 mb-md-5 mt-sm-5">
+                            <div class="">
+                            <div class="row mt-3 text-center">
+                                    <div class="row-md-12 mb-5">
+                                        <br>
+                                    </div>
+                                    <div class="row-md-12 mb-5">
+                                        <div class="index-button-logo3">
+                                            <a href="/assets/module_ds">
+                                                <img class="rounded-circle shadow" width="80px" src="/assets/module_ds/paws1.jpg" alt="">
+                                                <p>Community Helping Paws</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="row-md-12 mb-5">
+                                        <div class="index-button-logo3">
+                                            <a href="/assets/module_rl">
+                                                <div class="rounded bg-white p-1">
+                                                    <img class="rounded" width="140px" height="80px" src="/assets/module_rl/images/logo-no-background-removebg-preview.png" alt="">
+                                                </div>
+                                                <p class="mt-2">Local Harvest</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row-md-12 mb-5">
+                                        <div class="index-button-logo3 w-100">
+                                            <a href="/assets/module_jac">
+                                                <img class="rounded-circle shadow" width="80px" height="80px" src="assets/module_jac/img/psalms-logo.jpg" alt="">
+                                                <p>Book of Psalms</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>                      
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="mb-md-5 h-100 d-flex align-items-center">
+                            <div class="row">
+                                <h1 class="text-center align-middle">
+                                    <b><i>Why we exist?</i></b>
+                                </h1>
+                                <h5 class="text-center align-middle">
+                                    We exist because we want to be able to help the community care for their pet buddies and to care for those unfortunate animals that nobody cares. 
+                                </h5>
+                                <h5 class="text-center align-middle">
+                                    We want also to raise awareness to the community regarding the importance of consuming fresh harvested products. We support the organic farmers and facilitates to market their fresh produce. 
+                                </h5>
+                                <h5 class="text-center align-middle">
+                                    We want also to promote the importance of the food for the soul which is the word of God. We support through The Book Of Psalms organization in spreading the word of the Lord. 
+                                </h5>
+                                <br>
+                                <h1 class="text-center align-middle">
+                                    <b><i>How do we operate?</i></b>
+                                </h1>
+                                <h5 class="text-center align-middle">
+                                    We facilitate in the sale of products that is related to our cause, and part of the income will fund the causes that we beleive can give meaning to our existence.
+                                </h5>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-white" style="overflow:hidden;min-height:95vh">
+            <div class="container bg-white" style="overflow:hidden;height:100%">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="mb-md-5 h-100 d-flex align-items-center">
+                            <div class="row">
+                                <h1 class="text-center align-middle">
+                                    <b><i>Join Us!</i></b>
+                                </h1>
+                                <h5 class="text-center align-middle">
+                                    Become a member consumer of 3-Corners Community Cooperative Inc. 
+                                </h5>
+                                <div class="row mt-3 text-center">
+                                    <div class="col-md-12">
+                                        <div class="index-button-logo2">
+                                            <a href="/assets/view/pages/buyer_signup.html">
+                                                <img class="rounded-circle shadow" width="80px" src="/assets/view/img/favicon.jpg" alt="">
+                                                <p>Register Now</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="mb-2 mb-md-5 mt-sm-5 shadow rounded">
+                            <div class="">
+                                <img width="100%" class="rounded" src="/assets/view/img/join-us.webp" alt="">    
+                            </div>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container bg-white" style="overflow:hidden;min-height:90vh">
+            <div class="container bg-white" style="overflow:hidden;height:100%">
+                <div class="row">
+                <div class="col-md-7">
+                        <div class="mb-2 mb-md-5 mt-sm-5 shadow rounded">
+                            <div class="">
+                                <img width="100%" class="rounded" src="/assets/view/img/sell-with-us.avif" alt="">    
+                            </div>                      
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="mb-md-5 h-100 d-flex align-items-center">
+                            <div class="row">
+                                <h1 class="text-center align-middle">
+                                    <b><i>Sell with Us!</i></b>
+                                </h1>
+                                <h5 class="text-center align-middle">
+                                    Become a certified seller of 3-Corners Community Cooperative Inc. and access the buying powers of our member consumers 
+                                </h5>
+                                <div class="row mt-3 text-center">
+                                    <div class="col-md-12">
+                                        <div class="index-button-logo2">
+                                            <a href="/assets/view/pages/seller_signup.html">
+                                                <img class="rounded-circle shadow" width="80px" src="/assets/view/img/favicon.jpg" alt="">
+                                                <p>Become a Seller</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container bg-white" style="overflow:hidden;min-height:95vh">
+            <br>
+            <br>
+            <div class="container bg-white" style="overflow:hidden;height:100%">
+                <div class="row">
+                    <h1 class="text-center">The Management Team</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="mb-2 mb-md-5 mt-sm-5">
+                            <div class="row mt-3 text-center">
+                                <div class="col-md-3 mb-5">
+                                    <div class="index-button-logo3">
+                                        <a target="_blank" href="/assets/view/img/johnc-pic.jpg">
+                                            <img class="rounded-circle shadow" width="180px" src="/assets/view/img/johnc-pic.jpg" alt="">
+                                            <p> <h3> John Arsenio Cabison </h3></p>
+                                            <hr>
+                                            <p> <h5> CEO</h5></p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-5">
+                                    <div class="index-button-logo3">
+                                        <a target="_blank" href="/assets/view/img/davesaloria.jpg">
+                                            <img class="rounded-circle shadow" width="180px" src="/assets/view/img/davesaloria.jpg" alt="">
+                                            <p> <h3> Dave <br> Saloria </h3></p>
+                                            <hr>
+                                            <p> <h5> VP for Finance  </h5></p>
+                                        </a>
+                                    </div>
+                                </div>                            
+                                <div class="col-md-3 mb-5">
+                                    <div class="index-button-logo3">
+                                        <a target="_blank" href="/assets/view/img/reyL.jpg">
+                                            <img class="rounded-circle shadow" width="180px" src="/assets/view/img/reyL.jpg" alt="">
+                                            <p> <h3> Rey <br> Logdat </h3></p>
+                                            <hr>
+                                            <p> <h5> VP for Marketing and Sales </h5></p>
+                                        </a>
+                                    </div>
+                                </div>   
+                                <div class="col-md-3 mb-5">
+                                    <div class="index-button-logo3">
+                                        <a target="_blank" href="https://www.garrymcacho.com/">
+                                            <img class="rounded-circle shadow" width="180px" src="/assets/view/img/me3.jpg" alt="">
+                                            <p> <h3> Garry <br> Cacho </h3></p>
+                                            <hr>
+                                            <p> <h5> VP for Operations  </h5></p>
+                                        </a>
+                                    </div>
+                                </div>                                
+                            </div>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
         <div
             id="carouselExampleCaptions"
             class="carousel bg-dark slide"
