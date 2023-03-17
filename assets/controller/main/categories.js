@@ -36,7 +36,7 @@ function getRating(rating){
 function getProductListInnerHTMLof_users(items){
     let html =  items.map((item, i) => /*html*/`
                     <div class="col mb-3" style="color: gray" >
-                        <div class="card mb-3 border-1 p-0 position-relative shadow mx-auto" style="width:250px">
+                        <div class="card mb-3 border-1 p-0 position-relative shadow mx-auto" style="width:250px; overflow:hidden">
                             ${(item.on_sale) ? `
                                 <img
                                     height="70px"
@@ -45,13 +45,15 @@ function getProductListInnerHTMLof_users(items){
                                     class="position-absolute top-0 start-0"
                                 />` : ''}
                             <!-- Modal Trigger -->
-                            <img
-                                height="150px"
-                                src="${item.main_image}"
-                                alt="${item.description}"
-                                class="card-img-top image-selection"
-                                data-bs-toggle="modal" data-bs-target="#staticBackdrop-${item.id}"
-                            />
+                            <div class="image-selection mx-auto" style="height:150px;width:100%;overflow:hidden;">
+                                <img
+                                    width="100%"
+                                    src="${item.main_image}"
+                                    alt="${item.description}"
+                                    style="min-height:150px"
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop-${item.id}"
+                                />
+                            </div>
                             <div class="card-body" align="center" style="padding-top:1px">
                                 <h4 class="card-title" style="height:30px;overflow-y:hidden;margin-bottom:1px">${item.description}</h4>
                                 <p class="card-text" style="height:75px;overflow-y:hidden;margin-bottom:0">${item.specs}</p>

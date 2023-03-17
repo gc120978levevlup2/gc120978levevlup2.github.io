@@ -117,6 +117,16 @@ li a:hover {
   color: rgb(249, 248, 248);
 }
 
+.index-button-logo2:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.index-button-logo3:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
 .index-button-logo2 a {
   text-decoration: none;
   color: rgb(16, 16, 16);
