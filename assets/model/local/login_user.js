@@ -16,7 +16,8 @@ const create_user = (user) => {
 
 const read_user = (on_successfull_transaction) => {
     let user = localStorage.getItem('mystore-user')
-    on_successfull_transaction(JSON.parse(user))
+    if (user)
+        on_successfull_transaction(JSON.parse(user))
 }
 
 const delete_user = () => {

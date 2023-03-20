@@ -99,6 +99,11 @@ li a:hover{
     border: 2px solid rgba(255, 0, 0, 0.356);
   }
 
+  .desc-selection{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
   .categories-selection:hover {
     cursor: pointer;
     transform: translateY(-5px);
@@ -106,7 +111,7 @@ li a:hover{
 
   .categories-selection:active {
     cursor: pointer;
-    transform: translateY(-5px);
+    transform: translateY(5px);
   }
 
   .index-button-logo:hover {
@@ -170,3 +175,13 @@ li a:hover{
     color:rgb(110, 108, 108)
   }
 }
+
+.bd-checkout{
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+
+

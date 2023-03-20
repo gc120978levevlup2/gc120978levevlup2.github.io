@@ -66,7 +66,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
                             class="rounded-circle"
                             id="main-icon"
                         />
-                        <span style="font-weight: bolder; font-size: larger; color:aqua"> <b> 3CCCi </b></span>
+                        <span class="text-warning" style="font-weight: bolder; font-size: larger;"> <b> 3CCCi </b></span>
                     </a>
                     
                     <div class="btn-group">
@@ -122,7 +122,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
                                 </a>
                             </li>
                             <li class="nav-item ${hide_sel['buyer_checkout']}">
-                                <a class="nav-link ${selection['buyer_checkout']}"  href="/assets/view/pages/seller_product.html">
+                                <a class="nav-link ${selection['buyer_checkout']}"  href="/assets/view/pages/buyer_checkout.html">
                                     Checkout
                                 </a>
                             </li>
@@ -137,7 +137,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
                                 </a>
                             </li>
                             <li class="nav-item ${hide_sel['seller_ord_item']}">
-                                <a class="nav-link ${selection['seller_ord_item']}"  href="/assets/view/pages/seller_signup.html">
+                                <a class="nav-link ${selection['seller_ord_item']}"  href="/assets/view/pages/seller_orders.html">
                                     Orders
                                 </a>
                             </li>
