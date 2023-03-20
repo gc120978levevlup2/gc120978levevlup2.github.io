@@ -21,11 +21,11 @@ export const footer_view = (element_to_connect) => {
                             srcset=""
                             class="rounded-circle"
                         />
-                        <span style="font-weight: bolder; font-size: larger; color:aqua"> <b> 3CCCi </b></span>
+                        <span class="text-warning" style="font-weight: bolder; font-size: larger;"> <b> 3CCCi </b></span>
                         </h1>
                         <p>Address: 123 Main Street, Anytown, Philippines 12345</p>
                         <p>Phone: (123) 456-7890</p>
-                        <p>Email: <a href="mailto:info@mystore.com">info@mystore.com</a></p>
+                        <p>Email: <a href="mailto:info@3ccci.com">info@3ccci.com</a></p>
                     </div>
                     <div class="col-md-3">
                         <h4>Follow us</h4>
@@ -60,17 +60,16 @@ export const footer_view = (element_to_connect) => {
                     <div class="col-md-3">
                         <h4>Links</h4>
                         <ul class="list-unstyled">
-                        <li><a href="retpol.html">Return & Refund Policy</a></li>
-                        <li><a href="privpol.html">Privacy Policy</a></li>
-                        <li><a href="tos.html">Terms of Service</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a target="_blank" href="https://www.garrymcacho.com">About the Author</a></li>
+                            <li><a href="/assets/view/pages/retpol.html">Return & Refund Policy</a></li>
+                            <li><a href="/assets/view/pages/privpol.html">Privacy Policy</a></li>
+                            <li><a href="/assets/view/pages/tos.html">Terms of Service</a></li>
+                            <li><a href="/assets/view/pages/aboutus.html">About Us</a></li>
                         </ul>
                     </div>
                 </div>
                 <br />
                 <div class="copyright text-center">
-                Copyright &copy; 2023 myStore. All rights reserved.
+                Copyright &copy; 2023 3CCCi. All rights reserved.
                 </div>
                 <br />
                 <br />

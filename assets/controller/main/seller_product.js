@@ -66,7 +66,9 @@ function getProductListInnerHTMLof(items){
                                 />
                             </div>
                             <div class="card-body" align="center" style="padding-top:1px">
-                                <h4 class="card-title" style="height:30px;overflow-y:hidden;margin-bottom:1px">${item.description}</h4>
+                                <a class="desc-selection" href="/assets/view/pages/search.html?search=${item.id}">
+                                    <h4 class="d-flex align-middle desc-selection card-title" style="height:30px;overflow-y:hidden;margin-bottom:1px">${item.description}</h4>
+                                </a>
                                 <p class="card-text" style="height:75px;overflow-y:hidden;margin-bottom:0">${item.specs}</p>
                                 <h4 class="text-warning" style="height:30px;overflow-y:hidden;white-space:nowrap;margin-bottom:0"> <b> <i> ₱${item.unit_price.toLocaleString()} </i> </b> </h4>
                                 ${(item.on_sale) ? `
@@ -226,6 +228,7 @@ function getProductImage2(){
     }
 }
 
+// image input element
 let img3 = document.getElementById("product-image-filename2");
 if (img3) {
     //console.log(img2);
@@ -327,7 +330,7 @@ function getProductImage(){
                 <img
                     width="100%"
                     class="img-thumbnail"
-                    src="https://naeydbqunatldbdyzylj.supabase.co/storage/v1/object/public/images/${value}"
+                    src="${value}"
                     alt="please select a category image"
                     srcset=""
                     id="product-image"
@@ -362,6 +365,7 @@ function getProductImage(){
     }
 }
 
+// image file input
 let img2 = document.getElementById("product-image-filename1");
 if (img2) {
     //console.log(img2);

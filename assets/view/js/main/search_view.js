@@ -42,6 +42,33 @@ export const search_view = (items) => {
           </div>
         </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="static-view-reviews" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static-review-title" aria-hidden="true">
+          <div class="modal-dialog modal-md modal-dialog-centered  modal-dialog-scrollable">
+              <div class="modal-content shadow">
+                  <div class="modal-header bg-primary">
+                      <h6 class="modal-title text-white" id="static-review-title">
+                          <span style="font-size:30px"><i class="bi bi-card-text"></i></span>
+                          <span id="review-title">Reviews for</span> 
+                      </h6>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="window.location.reload()"></button>
+                  </div>
+                  <div class="modal-body">
+                      
+                  <div class="row">
+                    <div class="col-12" id="reviews-container">
+                      
+                    </div>                                          
+                  </div>
+                              
+                  </div>
+                  <div class="modal-footer" id="review-btn">
+                  </div>
+              </div>
+          </div>
+      </div>
+                        
             
     `/*html*/)
     

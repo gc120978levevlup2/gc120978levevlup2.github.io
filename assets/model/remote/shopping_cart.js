@@ -57,7 +57,7 @@ const read_cart_items_fr_seller = async (seller = null, on_successfull_transacti
     items = []
     const {data,error} = await supa
                                 .from("shopping_cart")
-                                .select('*')
+                                .select('*, items(*), users(*)')
     data.forEach((item) => {
         items.push(item)
     })
@@ -90,19 +90,24 @@ const read_cart_items_fr_user = async (user = null, on_successfull_transaction =
 }
 
 const update_cart_item = async ( item , on_successfull_transaction = null) => {
-    items = []
     const {data, error} = await supa
                           .from("shopping_cart")
                           .update(item)
                           .eq('id', item.id)
                           .select()
     console.log(item.id)
+    console.log('data')
     console.log(data)
+    console.log('error')
     console.log(error)    
 
-    data.forEach((item) => {
-        items.push(item)
+    items = []
+    data.forEach(item1 => {
+        items.push(item1)
     })
+
+    console.log('update_cart_item - items') 
+    console.log(items) 
 
     if (on_successfull_transaction){
         on_successfull_transaction(items)

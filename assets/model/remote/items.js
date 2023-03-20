@@ -89,7 +89,7 @@ const read_items_fr_search = async (search = null, on_successfull_transaction = 
 
     if (on_successfull_transaction){
         if (search){
-           on_successfull_transaction(items.filter(item => (item.description.toUpperCase().includes(search.toUpperCase()) || item.specs.toUpperCase().includes(search.toUpperCase())) ))
+           on_successfull_transaction(items.filter(item => (item.description.toUpperCase().includes(search.toUpperCase()) || item.specs.toUpperCase().includes(search.toUpperCase())  || item.id == search) ))
         }else
         {
             on_successfull_transaction(items)

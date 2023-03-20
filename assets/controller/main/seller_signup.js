@@ -182,7 +182,7 @@ if (img) {
             // put some loading animation message here
             save_image(resized_file, makeid, file_path => {
                 document.getElementById('img-text').value = file_path;
-                document.getElementById('img-view').src   = `https://naeydbqunatldbdyzylj.supabase.co/storage/v1/object/public/images/${file_path}`
+                document.getElementById('img-view').src   = `${file_path}`
                 imgInvalid                                = false;
                 validate_submit_button()
                 img.classList.add("is-valid");

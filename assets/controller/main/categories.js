@@ -1,5 +1,6 @@
 import { categories_view   } from "/assets/view/js/main/categories_view.js"
 import { categories_submit } from "/assets/controller/submit/categories_submit.js"
+import { showModal_with_data } from "/assets/controller/misc/misc.js"
 import {                  
     read_items_fr_category,
     read_items,
@@ -15,15 +16,24 @@ import {
 import {
     read_categories2,
                        } from "/assets/model/remote/categories.js"
-
+import {                  
+    create_review,
+    read_reviews,
+    read_reviews_of,
+    update_review,
+    delete_review,
+                      } from "/assets/model/remote/product_reviews.js" 
 
 categories_view()
 
 let global_user = null
 read_user( user => {
     global_user = user
-    console.log(global_user)
+    //console.log(global_user)
 })
+
+let global_user_buyer = null
+global_user_buyer = user_is_a('buyer')
 
 function getRating(rating){
     let ret = ""
@@ -34,9 +44,9 @@ function getRating(rating){
 }
 
 function getProductListInnerHTMLof_users(items){
-    let html =  items.map((item, i) => /*html*/`
+    return  items.map((item, i) => /*html*/`
                     <div class="col mb-3" style="color: gray" >
-                        <div class="card mb-3 border-1 p-0 position-relative shadow mx-auto" style="width:250px; overflow:hidden">
+                        <div class="card mb-3 border-1 p-0 position-relative shadow mx-auto" style="width:250px">
                             ${(item.on_sale) ? `
                                 <img
                                     height="70px"
@@ -86,12 +96,13 @@ function getProductListInnerHTMLof_users(items){
                                     </div>
                                     <div class="col-6">
                                         <button 
-                                           type="button" 
-                                           class="btn btn-outline-secondary w-100"
-                                           id="mod-${item.id}"
-                                         >
-                                            <i class="bi bi-pen"></i>
-                                            Review
+                                            type="button" 
+                                            class="btn btn-outline-warning w-100" 
+                                            id="view-review-${item.id}"
+                                            data-bs-toggle="modal" data-bs-target="#static-view-reviews"
+                                          >
+                                          <i class="bi bi-chat-quote"></i>
+                                            Reviews
                                         </button>
                                     </div>
                                 </div>
@@ -155,15 +166,11 @@ function getProductListInnerHTMLof_users(items){
                     </div>
 
                 `).join('\n')
-    if (items.length === 0){
-        html = '<br><h6>[Empty List]</h6><br><br><br><br><br><br>'
-    }
-    return html
 }
 
 categories_submit(()=>{
 }, cat_obj => {
-    console.log(cat_obj)
+    //console.log(cat_obj)
     read_categories2(cat_obj.id, categories => {
         $('#category_name').html(categories[0].name);
     })
@@ -181,9 +188,64 @@ categories_submit(()=>{
                     })
                 })
             }
+
+            let review_btn = document.getElementById(`view-review-${item.id}`)
+            if (review_btn) {
+                review_btn.addEventListener('click', () =>{
+                    let item_id = review_btn.id.replace('view-review-','')
+                    read_reviews_of( item_id, reviews => {
+                        console.log(reviews)
+                        showModal_with_data('static-view-reviews', () => {
+                            if (reviews.length>0)
+                                $('#review-title').html(reviews[0].items.description + ' Reviews');
+                            else
+                                $('#review-title').html(' Reviews');
+                            $('#reviews-container').html(
+                                (reviews.length > 0) ?
+                                    (reviews.map ( item => (/*html*/`
+                                    <div class="border rounded p-1 mb-2 bg-body">
+                                        <div class="row mb-1">
+                                            <div class="col-12 text-capitalize">
+                                                <img class="rounded-circle" height="30px" src="${item.users.img}" alt="">
+                                                <span style="float:right">${getRating(item.rating)}</span>
+                                                <span class="badge bg-success"> ${item.users.name} </span>
+                                                <p style="font-size:10px; margin:2px"> ${item.date} </p>
+                                            </div>
+                                        </div>
+                                        ${show_images(item.images)}  
+                                        <div class="mx-2" style="font-size:12px">
+                                            ${item.review}
+                                        </div> 
+                                    </div>
+                                    `/*html*/)).join('\n')) : ('<br><h3>[No Reviews Available]</h3><br><br><br><br><br><br><br>')
+                            )
+                        })
+                    })
+
+                })
+            }
         }
     })
 })
+
+function show_images(array){
+    let n = JSON.parse(array).length
+    let html = (JSON.parse(array)).map (item => (/*html*/`
+                    <a target="_blank" href="${item}" style="color:white">
+                        <img height="100" src="${item}" alt="${item}">
+                    </a>
+                `/*html*/)).join('\n')
+    if (n > 0)
+        return (/*html*/`
+            <div class="mx-2" style="height:100px;overflow-x:auto;overflow-y:hidden">
+                <div style="height:120px;white-space: nowrap;">
+                    ${html}
+                </div>
+            </div>
+            `/*html*/)
+    else
+        return ('')
+}
 
 
 
