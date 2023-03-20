@@ -122,7 +122,8 @@ function getProductListInnerHTMLof(items){
                                             data-bs-toggle="modal" data-bs-target="#staticBackdrop2-${item.id}"
                                           >
                                             <i class="bi bi-eraser"></i>
-                                            Cancel
+                                            <br>
+                                            Cancel Orders
                                         </button>
                                     </div>
                                     <div class="col-6">
@@ -131,8 +132,8 @@ function getProductListInnerHTMLof(items){
                                            class="btn btn-outline-secondary"
                                            id="mod-${item.id}"
                                          >
-                                            <i class="bi bi-pen"></i>
-                                            Update
+                                            <i class="bi bi-pen"></i><br>
+                                            Update Status
                                         </button>
                                     </div>
                                 </div>
