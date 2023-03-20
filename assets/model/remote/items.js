@@ -59,6 +59,24 @@ const read_items_fr_seller = async (seller = null, on_successfull_transaction = 
     }
 }
 
+const read_items_fr_seller_email = async (seller_email = null, on_successfull_transaction = null) => {
+    items = []
+    const {data,error} = await supa
+                                .from("items")
+                                .select('*, sellers(name, address)')
+    data.forEach((item) => {
+        items.push(item)
+    })
+
+    if (on_successfull_transaction){
+        if (seller_email){
+            on_successfull_transaction(items.filter((item) => item.seller_email1 === seller_email))
+        }else{
+            on_successfull_transaction(items)
+        }
+    }
+}
+
 const read_items_fr_category = async (category_id = null, on_successfull_transaction = null) => {
     items = []
     const {data,error} = await supa
@@ -145,6 +163,7 @@ export {
          create_item, 
          read_items,
          read_items_fr_seller,
+         read_items_fr_seller_email,
          read_items_fr_category,
          read_items_fr_search,
          update_item,
