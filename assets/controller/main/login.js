@@ -26,7 +26,7 @@ login_form_submit(() => {
              if (sellers[0].password1 === data.password1){
                 create_user(sellers[0])
                 create_user_a_seller()
-                window.location.href = '/'
+                window.location.href = '/assets/view/pages/seller_dashboard.html'
              }else{
                  window.location.href = `/assets/view/pages/login.html?msg=${("Error: password does not match")}`
              }
@@ -36,7 +36,7 @@ login_form_submit(() => {
                     if (users[0].password1 === data.password1){
                         create_user(users[0])
                         create_user_a_buyer()
-                        window.location.href = '/'
+                        window.location.href = '/assets/view/pages/buyer_dashboard.html'
                     }else{
                         window.location.href = `/assets/view/pages/login.html?msg=${("Error: password does not match")}`
                     }

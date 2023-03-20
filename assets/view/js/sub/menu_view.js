@@ -56,7 +56,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
     $(`#${element_to_connect}`).html(/*html*/ ` 
 
         <div class="container-fluid w-100">  
-            <nav class="navbar navbar-expand-lg fixed-top  navbar-dark px-2" style="background-color: rgb(23,32,213,0.85);backdrop-filter: blur(5px);">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark px-2" style="background-color: rgb(23,32,213,0.85);backdrop-filter: blur(5px);">
                     <a class="navbar-brand" href="/">
                         <img
                             height="40px"
@@ -179,6 +179,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
                                 />
                             </a>
                         </div>
+                    </div>
             </nav>
         </div>
   

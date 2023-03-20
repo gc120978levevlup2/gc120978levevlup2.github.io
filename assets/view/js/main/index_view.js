@@ -27,12 +27,12 @@ export const index_view = (data) => {
     $('#main-body-container').removeClass('container') // remove this to make the container visible
     $('#main-body').html(/*html*/`
 
-        <div class="container bg-primary" style="overflow:hidden;min-height:95vh">
-            <br>
+        <div class="container bg-primary d-flex" style='overflow:hidden;min-height:calc(100vh - 60px)'>
+          <div class="m-auto">
             <div class="container bg-primary" style="overflow:hidden;height:100%">
                 <div class="row">
                     <div class="col-lg-7 d-lg-none">
-                        <div class="mb-2 mbc5 mt-lg-5 shadow rounded">
+                        <div class="mb-2 mbc5 mt-3 shadow rounded">
                             <div class="">
                                 <img width="100%" class="rounded" src="/assets/view/img/4m12.jpg" alt="">    
                             </div>                      
@@ -80,27 +80,28 @@ export const index_view = (data) => {
                             </div>                        
                         </div>
                     </div>
-                    <div class="col-lg-7 d-none d-lg-block">
-                        <div class="mb-2 mbc5 mt-sm-5 shadow rounded">
-                            <div class="">
+                    <div class="col-lg-7 d-none d-lg-flex">
+                        <div class="w-100 shadow rounded m-auto">
+                            <div class="w-100">
                                 <img width="100%" class="rounded" src="/assets/view/img/4m12.jpg" alt="">    
                             </div>                      
                         </div>
                     </div>
                 </div>
             </div>
+          </div>
         </div>
 
 
-        <div class="container bg-white" style="overflow:hidden;min-height:95vh">
+        <div class="container bg-white inner d-flex" style="overflow:hidden;min-height:calc(100vh - 60px)">
+          <div class="m-auto">
             <div class="container bg-white" style="overflow:hidden;height:100%">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="mb-2 mb-lg-3 mt-sm-3">
                             <div class="">
                                 <div class="row mt-3 text-center g-2">
                                     <div class="row-lg-12 mb-5">
-                                        <br>
                                     </div>
                                     <div class="row-lg-12 mb-5">
                                         <div class="index-button-logo3">
@@ -134,7 +135,7 @@ export const index_view = (data) => {
                             </div>                      
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         <div class="mb-lg-5 h-100 d-flex align-items-center">
                             <div class="row">
                                 <h1 class="text-center align-middle">
@@ -161,11 +162,12 @@ export const index_view = (data) => {
                     </div>
                 </div>
             </div>
+          </div>
         </div>
 
-        <div class="container" style="overflow:hidden;min-height:95vh;background:rgba(250,250,250,0.8);">
-            <div class="container" style="overflow:hidden;height:100%;background:rgba(250,250,250,0.8);">
-                <br>
+        <div class="container inner d-flex" style="overflow:hidden;background:rgba(250,250,250,0.8);min-height:calc(100vh - 60px)">
+          <div class="m-auto">
+            <div class="container" style="overflow:hidden;background:rgba(250,250,250,0.8);height:100%">
                 <div class="row my-auto">
                     <div class="col-lg-7 d-lg-none">
                         <div class="mb-2 mb-lg-5 mt-sm-5 shadow rounded">
@@ -181,7 +183,7 @@ export const index_view = (data) => {
                                     <b><i>Join Us!</i></b>
                                 </h1>
                                 <h5 class="text-center align-middle text-secondary">
-                                    Become a member consumer of 3-Corners Community Cooperative Inc. 
+                                    Please support our community causes and become a member consumer of 3-Corners Community Cooperative Inc. You will benefit from the myriad of products that are available on our store. 
                                 </h5>
                                 <div class="row mt-3 text-center">
                                     <div class="col-lg-12">
@@ -203,12 +205,14 @@ export const index_view = (data) => {
                             </div>                      
                         </div>
                     </div>
-                </div>
-            </div>
+                </div>               
+            </div>        
+          </div>           
         </div>
 
 
-        <div class="container bg-white" style="overflow:hidden;min-height:90vh">
+        <div class="container bg-white inner d-flex" style="overflow:hidden;min-height:calc(100vh - 60px)">
+          <div class="m-auto">
             <div class="container bg-white" style="overflow:hidden;height:100%">
                 <br>
                 <div class="row">
@@ -242,26 +246,26 @@ export const index_view = (data) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>        
+          </div>
         </div>
 
-        <div class="container" style="overflow:hidden;min-height:95vh;background:rgba(250,250,250,0.8);">
+        <div class="container inner d-flex" style="overflow:hidden;min-height:calc(100vh - 60px);background:rgba(250,250,250,0.8);">
+          <div class="m-auto">
             <div class="container" style="overflow:hidden;height:100%;background:rgba(250,250,250,0.8);">
-            <br>
-            <br>
                 <div class="row">
                     <h1 class="text-center">The Management Team</h1>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="mb-2 mb-lg-5 mt-sm-5">
+                        <div class="mb-2 mt-sm-5">
                             <div class="row mt-3 text-center">
                                 <div class="col-lg-3 mb-5">
                                     <div class="index-button-logo3">
                                         <a target="_blank" href="/assets/view/img/johnc-pic.jpg">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/johnc-pic.jpg" alt="">
                                             <p> <h3>John Arsenio<br> Cabison </h3></p>
-                                            <hr>
+                                            <hr class="d-none d-lg-block">
                                             <p> <h5> CEO</h5></p>
                                         </a>
                                     </div>
@@ -271,7 +275,7 @@ export const index_view = (data) => {
                                         <a target="_blank" href="/assets/view/img/davesaloria.jpg">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/davesaloria.jpg" alt="">
                                             <p> <h3> Dave <br> Saloria </h3></p>
-                                            <hr>
+                                            <hr class="d-none d-lg-block">
                                             <p> <h5> VP for Finance  </h5></p>
                                         </a>
                                     </div>
@@ -281,7 +285,7 @@ export const index_view = (data) => {
                                         <a target="_blank" href="/assets/view/img/reyL.jpg">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/reyL.jpg" alt="">
                                             <p> <h3> Rey <br> Logdat </h3></p>
-                                            <hr>
+                                            <hr class="d-none d-lg-block">
                                             <p> <h5> VP for Marketing and Sales </h5></p>
                                         </a>
                                     </div>
@@ -291,7 +295,7 @@ export const index_view = (data) => {
                                         <a target="_blank" href="https://www.garrymcacho.com/">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/me3.jpg" alt="">
                                             <p> <h3> Garry <br> Cacho </h3></p>
-                                            <hr>
+                                            <hr class="d-none d-lg-block">
                                             <p> <h5> VP for Operations  </h5></p>
                                         </a>
                                     </div>
@@ -300,16 +304,17 @@ export const index_view = (data) => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>              
+          </div>
         </div>
         
 
 
         <div
             id="carouselExampleCaptions"
-            class="carousel bg-dark slide"
+            class="carousel bg-dark slide inner"
             data-bs-ride="carousel"
-            style="height: 95vh"
+            style="min-height:calc(100vh - 60px)"
             >
             <div class="carousel-indicators">
                 <button
