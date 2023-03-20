@@ -10,7 +10,7 @@ export const root_view = () => {
                 </div>
             </div>
             <div class="container page-body" id="main-body-container">
-                <div class="row" id="main-body">   
+                <div class="row" id="main-body" style="overflow:hidden">   
                                
                 </div> 
             </div>

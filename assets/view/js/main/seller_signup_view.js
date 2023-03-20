@@ -111,7 +111,7 @@ export const seller_signup_view = (data) => {
                                 <hr />
                                 <br />
                                 <div class="form-group mb-3">
-                                    <label for="name"><i class="fa fa-user-o" aria-hidden="true"></i> Name:</label>
+                                    <label for="name"><i class="fa fa-user-o" aria-hidden="true"></i> Store Name:</label>
                                     <input
                                         type="text"
                                         class="form-control"

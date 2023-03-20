@@ -84,7 +84,9 @@ function getProductListInnerHTMLof(items){
                             </div>
                             <div class="card-body" align="center" style="padding-top:1px">
                                 <a class="desc-selection" href="/assets/view/pages/search.html?search=${item.items.id}">
-                                    <h4 class="d-flex align-middle desc-selection card-title" style="height:30px;overflow-y:hidden;margin-bottom:1px">${item.items.description}</h4>
+                                    <h4 class="d-flex align-middle desc-selection" style="height:60px;overflow-y:hidden;margin-bottom:1px;font-size:13px">
+                                        <span class="m-auto"> ${item.items.description} </span>
+                                    </h4>
                                 </a>
                                 <p class="" style="height:45px;overflow-y:hidden;margin-bottom:0;font-size:10px">${item.items.specs}</p>
                                 

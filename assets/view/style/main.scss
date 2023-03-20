@@ -183,5 +183,15 @@ li a:hover{
   margin-bottom: 20px;
 }
 
+.wrapper {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  width: 100vw;
+  height: 100vh;
+}
 
+.wrapper .inner {
+  scroll-snap-align: start;
+}
 
