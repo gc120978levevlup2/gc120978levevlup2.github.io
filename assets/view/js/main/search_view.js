@@ -28,18 +28,18 @@ export const search_view = (items) => {
     $('#main-body').html(/*html*/`
        
       <br>
-      <div class="container mb-3">
+      <div class="container mb-3 d-block">
         <div class="row">
-          <div class="col-md-12 m-3">
+          <div class="col-md-12 m-3 p-1">
             <div class="row">
                 <div class="col-sm-4">
                     <h2 style="float:left"><b>Search Results</b></h2>                  
                 </div>
             </div>
-            <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5" id="user-search-list">
-                 <br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
           </div>
+        </div>
+        <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5" id="user-search-list">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
       </div>
 
