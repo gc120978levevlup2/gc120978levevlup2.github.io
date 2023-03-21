@@ -31,11 +31,290 @@ export const index_view = (data) => {
           <div class="m-auto">
             <div class="container bg-primary" style="overflow:hidden;height:100%">
                 <div class="row">
-                    <div class="col-lg-7 d-lg-none">
-                        <div class="mb-2 mbc5 mt-3 shadow rounded">
-                            <div class="">
-                                <img width="100%" class="rounded" src="/assets/view/img/4m12.jpg" alt="">    
-                            </div>                      
+                    <div class="col d-lg-none" style="overflow:hidden">
+                        <div class="mb-2 mbc5 mt-3 shadow rounded" style="overflow:hidden">
+                        <div
+                                    id="carouselExampleCaptions"
+                                    class="carousel bg-dark slide carousel-fade w-100"
+                                    data-bs-ride="carousel"
+                                    >
+                                    <div class="carousel-indicators">
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="0"
+                                        class="active"
+                                        aria-current="true"
+                                        aria-label="Slide 1"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="1"
+                                        aria-label="Slide 2"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="2"
+                                        aria-label="Slide 3"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="3"
+                                        aria-label="Slide 4"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="4"
+                                        aria-label="Slide 5"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="5"
+                                        aria-label="Slide 6"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="6"
+                                        aria-label="Slide 7"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="7"
+                                        aria-label="Slide 8"
+                                        ></button>
+                                    </div>
+
+                                    <div class="carousel-inner h-100 rounded">
+                                        <div class="carousel-item active h-100 rounded" data-bs-interval="4000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-primary bg-opacity-50  rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            width="100%"
+                                            src="/assets/view/img/4m12.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>The Management Team</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="3000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-success bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel"
+                                            width="100%"
+                                            src="/assets/view/img/femp1.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block rounded"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We strive to build a happy working environment.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100" data-bs-interval="2000 rounded">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            width="100%"
+                                            src="/assets/view/img/fdog-care.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We got pet friendly products.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            width="100%"
+                                            src="/assets/view/img/fveg-harvest1.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We also got fresh farm products.</h3>
+                                        </div>
+                                        </div>
+
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            width="100%"
+                                            src="/assets/view/img/fword1.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>The word of God is the strongest pillar.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            width="100%"
+                                            src="/assets/view/img/fveg-harvest2.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We have straight from the farm products.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            width="100%"
+                                            src="/assets/view/img/fdog-care2.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>Your paw buddy is properly cared here.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            width="100%"
+                                            src="/assets/view/img/fword2.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We help propagate the Word.</h3>
+                                        </div>
+                                        </div>
+
+                                    </div>
+
+                                    <button
+                                        class="carousel-control-prev"
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide="prev"
+                                    >
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+
+                                    <button
+                                        class="carousel-control-next"
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide="next"
+                                    >
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>                    
                         </div>
                     </div>
                     <div class="col-lg-5 text-white">
@@ -80,13 +359,302 @@ export const index_view = (data) => {
                             </div>                        
                         </div>
                     </div>
+                   
                     <div class="col-lg-7 d-none d-lg-flex">
-                        <div class="w-100 shadow rounded m-auto">
+                        <div class="w-100 shadow rounded m-auto" style="overflow:hidden">
+                             <!---
                             <div class="w-100">
                                 <img width="100%" class="rounded" src="/assets/view/img/4m12.jpg" alt="">    
-                            </div>                      
+                            </div>  
+                            --->   
+                            
+                                <div
+                                    id="carouselExampleCaptions"
+                                    class="carousel bg-dark slide carousel-fade w-100"
+                                    data-bs-ride="carousel"
+                                    >
+                                    <div class="carousel-indicators">
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="0"
+                                        class="active"
+                                        aria-current="true"
+                                        aria-label="Slide 1"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="1"
+                                        aria-label="Slide 2"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="2"
+                                        aria-label="Slide 3"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="3"
+                                        aria-label="Slide 4"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="4"
+                                        aria-label="Slide 5"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="5"
+                                        aria-label="Slide 6"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="6"
+                                        aria-label="Slide 7"
+                                        ></button>
+                                        <button
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="7"
+                                        aria-label="Slide 8"
+                                        ></button>
+                                    </div>
+
+                                    <div class="carousel-inner h-100 rounded">
+                                        <div class="carousel-item active h-100 rounded" data-bs-interval="4000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-primary bg-opacity-50  rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            height="100%"
+                                            src="/assets/view/img/4m12.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>The Management Team</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="3000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-success bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel"
+                                            height="100%"
+                                            src="/assets/view/img/femp1.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block rounded"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We strive to build a happy working environment.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100" data-bs-interval="2000 rounded">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            height="100%"
+                                            src="/assets/view/img/fdog-care.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We got pet friendly products.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            height="100%"
+                                            src="/assets/view/img/fveg-harvest1.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We also got fresh farm products.</h3>
+                                        </div>
+                                        </div>
+
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            height="100%"
+                                            src="/assets/view/img/fword1.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>The word of God is the strongest pillar.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            height="100%"
+                                            src="/assets/view/img/fveg-harvest2.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We have straight from the farm products.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            height="100%"
+                                            src="/assets/view/img/fdog-care2.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>Your paw buddy is properly cared here.</h3>
+                                        </div>
+                                        </div>
+
+                                        <div class="carousel-item h-100 rounded" data-bs-interval="2000">
+                                        <div
+                                            class="bd-placeholder-img bd-placeholder-img-lg d-flex flex-fill justify-content-center align-content-center w-100 bg-danger bg-opacity-50 rounded"
+                                            style="height: 100%"
+                                        >
+                                            <img
+                                            class="hero-carousel rounded"
+                                            height="100%"
+                                            src="/assets/view/img/fword2.jpg"
+                                            alt=""
+                                            srcset=""
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-caption d-block"
+                                            style="
+                                            background-color: rgb(20, 88, 100);
+                                            opacity: 0.7;
+                                            padding: 10px;
+                                            "
+                                        >
+                                            <h3>We help propagate the Word.</h3>
+                                        </div>
+                                        </div>
+
+                                    </div>
+
+                                    <button
+                                        class="carousel-control-prev"
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide="prev"
+                                    >
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+
+                                    <button
+                                        class="carousel-control-next"
+                                        type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide="next"
+                                    >
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
+
                         </div>
                     </div>
+                    
                 </div>
             </div>
           </div>
