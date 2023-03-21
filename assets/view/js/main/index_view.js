@@ -34,14 +34,14 @@ export const index_view = (data) => {
                     <div class="col d-lg-none" style="overflow:hidden">
                         <div class="mb-2 mbc5 mt-3 shadow rounded" style="overflow:hidden">
                         <div
-                                    id="carouselExampleCaptions"
+                                    id="carouselExampleCaptions1"
                                     class="carousel bg-dark slide carousel-fade w-100"
                                     data-bs-ride="carousel"
                                     >
                                     <div class="carousel-indicators">
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="0"
                                         class="active"
                                         aria-current="true"
@@ -49,43 +49,43 @@ export const index_view = (data) => {
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="1"
                                         aria-label="Slide 2"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="2"
                                         aria-label="Slide 3"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="3"
                                         aria-label="Slide 4"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="4"
                                         aria-label="Slide 5"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="5"
-                                        aria-label="Slide 6"
+                                        aria-label="ySlide 6"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="6"
                                         aria-label="Slide 7"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide-to="7"
                                         aria-label="Slide 8"
                                         ></button>
@@ -298,7 +298,7 @@ export const index_view = (data) => {
                                     <button
                                         class="carousel-control-prev"
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide="prev"
                                     >
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -308,7 +308,7 @@ export const index_view = (data) => {
                                     <button
                                         class="carousel-control-next"
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions1"
                                         data-bs-slide="next"
                                     >
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -369,14 +369,14 @@ export const index_view = (data) => {
                             --->   
                             
                                 <div
-                                    id="carouselExampleCaptions"
-                                    class="carousel bg-dark slide carousel-fade w-100"
+                                    id="carouselExampleCaptions2"
+                                    class="carousel bg-dark slide carousel-fade w-100 shadow"
                                     data-bs-ride="carousel"
                                     >
                                     <div class="carousel-indicators">
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="0"
                                         class="active"
                                         aria-current="true"
@@ -384,43 +384,43 @@ export const index_view = (data) => {
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="1"
                                         aria-label="Slide 2"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="2"
                                         aria-label="Slide 3"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="3"
                                         aria-label="Slide 4"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="4"
                                         aria-label="Slide 5"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="5"
                                         aria-label="Slide 6"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="6"
                                         aria-label="Slide 7"
                                         ></button>
                                         <button
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide-to="7"
                                         aria-label="Slide 8"
                                         ></button>
@@ -633,7 +633,7 @@ export const index_view = (data) => {
                                     <button
                                         class="carousel-control-prev"
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide="prev"
                                     >
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -643,7 +643,7 @@ export const index_view = (data) => {
                                     <button
                                         class="carousel-control-next"
                                         type="button"
-                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-target="#carouselExampleCaptions2"
                                         data-bs-slide="next"
                                     >
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>

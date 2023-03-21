@@ -41,7 +41,7 @@ function getRating(rating){
 
 function getProductListInnerHTMLof_users(items){
     return  items.map((item, i) => /*html*/`
-                    <div class="col mb-3" style="color: gray" >
+                    <div class="col mb-3 d-flex" style="color: gray" >
                         <div class="card mb-3 border-1 p-0 position-relative shadow mx-auto" style="width:250px">
                             ${(item.on_sale) ? `
                                 <img
@@ -86,7 +86,7 @@ function getProductListInnerHTMLof_users(items){
                                             id="${i}"
                                             data-bs-toggle="modal" data-bs-target="#staticBackdrop2-${item.id}"
                                           >
-                                            <i class="bi bi-cart"></i>
+                                            <i class="bi bi-cart"></i><br>
                                             Cart
                                         </button>
                                     </div>
@@ -97,7 +97,7 @@ function getProductListInnerHTMLof_users(items){
                                             id="view-review-${item.id}"
                                             data-bs-toggle="modal" data-bs-target="#static-view-reviews"
                                           >
-                                          <i class="bi bi-chat-quote"></i>
+                                          <i class="bi bi-chat-quote"></i><br>
                                             Reviews
                                         </button>
                                     </div>

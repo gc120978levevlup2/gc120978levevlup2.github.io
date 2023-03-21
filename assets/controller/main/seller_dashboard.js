@@ -68,7 +68,7 @@ admin_new_cat_form_submit(() => {
 
                 <div class="col mb-3" style="color: gray" >
                     <div class="card mx-auto" style="width:250px; height:315px">
-                    <div class="mx-auto shadow border border-2" style="width:100%;height:100px;overflow:hidden">
+                        <div class="mx-auto shadow border border-2" style="width:100%;height:100px;overflow:hidden">
                             <img width="100%" style="" src="${value.image}" class="card-img-top1" alt="...">
                         </div>
                         <div class="card-body">
