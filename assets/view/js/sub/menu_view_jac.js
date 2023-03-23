@@ -104,7 +104,7 @@ export const menu_view = (active_page, included_options, element_to_connect) => 
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
                             <li class="nav-item ${hide_sel['home']}">
                                 <a class="nav-link ${selection['home']}" href="/assets/module_jac/"> <!-- Customize for this file only -->
-                                    Home
+                                    Index
                                 </a>
                             </li>
                             <!-- Customize for this file only -->

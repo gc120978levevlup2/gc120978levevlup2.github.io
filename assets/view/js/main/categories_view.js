@@ -38,10 +38,10 @@ export const categories_view = (items) => {
                     </b></h2>                  
                 </div>
             </div>
-            <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5" id="user-search-list">
-                 <br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
           </div>
+        </div>
+        <div class="row row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5" id="user-search-list">
+            <br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
       </div>
 
