@@ -134,12 +134,13 @@ navbar-brand img
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient( to right, #b5e7a0, #405d27);
+    background-image: linear-gradient( to right, #405d27, #405d27);
 }
+
 /*---------about-us section-----*/
 #about-us
 {
-    background: #405d27;
+    background: #b5e7a0;
     padding-bottom: 50px;
     padding-top: 50px;
 }
