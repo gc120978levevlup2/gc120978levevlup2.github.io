@@ -48,18 +48,47 @@
 						id="main-body"
 						style="
 							overflow: hidden;
-							background-color: rgba(234, 229, 208, 0.776);
+							background-color: rgba(234, 229, 208, 0.51);
 						">
 						<!-- Put more html content here -->
-						<header>
-							<img
-								class="rounded-circle shadow"
-								width="80px"
-								height="80px"
-								src="/assets/module_jac/img/psalms-logo.jpg"
-								alt="" />
-							&nbsp;&nbsp;
-							<h1 class="text-white">The Book of Psalms</h1>
+						<header
+							class="d-flex justify-content-sm-between"
+							style="background-color: rgb(255, 252, 240)">
+							<div
+								class="d-flex flex-wrap justify-content-center">
+								<img
+									class="rounded-circle shadow"
+									width="80px"
+									height="80px"
+									src="paws1.jpg"
+									alt="" />
+								&nbsp;&nbsp;
+								<h1 class="text-success m-auto">
+									Community Helping Paws
+								</h1>
+							</div>
+
+							<div class="width:1250px"></div>
+							<div
+								style="float: right; height: 100%"
+								class="d-flex flex-wrap justify-content-center">
+								<ul class="nav nav-pills">
+									<li class="nav-item">
+										<a
+											href="programs.html"
+											class="nav-link text-black fs-5 fw-bolder"
+											>Programs</a
+										>
+									</li>
+									<li class="nav-item">
+										<a
+											href="articles.html"
+											class="nav-link text-black fs-5 fw-bolder"
+											>Articles</a
+										>
+									</li>
+								</ul>
+							</div>
 						</header>
 						<br />
 						<h2
@@ -143,7 +172,7 @@
 				user_is_a,
 			} from "/assets/model/local/login_user.js"
 
-			import { menu_view } from "/assets/view/js/sub/menu_view_rl2.js"
+			import { menu_view } from "/assets/view/js/sub/menu_view_ds.js"
 			import { footer_view } from "/assets/view/js/sub/footer_view.js"
 
 			import {
@@ -384,61 +413,53 @@
 					.join("\n")
 			}
 
-			read_items_fr_seller_email(
-				"johncabison@gmail.com",
-				async (items) => {
-					$("#user-search-list").html(
-						getProductListInnerHTMLof_users(items)
+			read_items_fr_seller_email("mp2_kodego@web.com", async (items) => {
+				$("#user-search-list").html(
+					getProductListInnerHTMLof_users(items)
+				)
+				for (let item of items) {
+					let add_cart_btn = document.getElementById(
+						`add-cart-${item.id}`
 					)
-					for (let item of items) {
-						let add_cart_btn = document.getElementById(
-							`add-cart-${item.id}`
-						)
-						if (add_cart_btn) {
-							add_cart_btn.addEventListener("click", () => {
-								let item_id = add_cart_btn.id.replace(
-									"add-cart-",
-									""
-								)
-								read_items(item_id, (items) => {
-									items[0].email1 = global_user.email1
-									//console.log(items[0])
-									create_cart_item(items[0])
-								})
+					if (add_cart_btn) {
+						add_cart_btn.addEventListener("click", () => {
+							let item_id = add_cart_btn.id.replace(
+								"add-cart-",
+								""
+							)
+							read_items(item_id, (items) => {
+								items[0].email1 = global_user.email1
+								//console.log(items[0])
+								create_cart_item(items[0])
 							})
-						}
+						})
+					}
 
-						let review_btn = document.getElementById(
-							`view-review-${item.id}`
-						)
-						if (review_btn) {
-							review_btn.addEventListener("click", () => {
-								let item_id = review_btn.id.replace(
-									"view-review-",
-									""
-								)
-								read_reviews_of(item_id, (reviews) => {
-									console.log(reviews)
-									showModal_with_data(
-										"static-view-reviews",
-										() => {
-											if (reviews.length > 0)
-												$("#review-title").html(
-													reviews[0].items
-														.description +
-														" Reviews"
-												)
-											else
-												$("#review-title").html(
+					let review_btn = document.getElementById(
+						`view-review-${item.id}`
+					)
+					if (review_btn) {
+						review_btn.addEventListener("click", () => {
+							let item_id = review_btn.id.replace(
+								"view-review-",
+								""
+							)
+							read_reviews_of(item_id, (reviews) => {
+								console.log(reviews)
+								showModal_with_data(
+									"static-view-reviews",
+									() => {
+										if (reviews.length > 0)
+											$("#review-title").html(
+												reviews[0].items.description +
 													" Reviews"
-												)
-											$("#reviews-container").html(
-												reviews.length > 0
-													? reviews
-															.map(
-																(
-																	item
-																) => /*html*/ `
+											)
+										else $("#review-title").html(" Reviews")
+										$("#reviews-container").html(
+											reviews.length > 0
+												? reviews
+														.map(
+															(item) => /*html*/ `
                                             <div class="border rounded p-1 mb-2 bg-body">
                                                 <div class="row mb-1">
                                                     <div class="col-12 text-capitalize">
@@ -462,18 +483,17 @@
                                                 </div> 
                                             </div>
                                             ` /*html*/
-															)
-															.join("\n")
-													: "<br><h3>[No Reviews Available]</h3><br><br><br><br><br><br><br>"
-											)
-										}
-									)
-								})
+														)
+														.join("\n")
+												: "<br><h3>[No Reviews Available]</h3><br><br><br><br><br><br><br>"
+										)
+									}
+								)
 							})
-						}
+						})
 					}
 				}
-			)
+			})
 
 			function show_images(array) {
 				let n = JSON.parse(array).length
