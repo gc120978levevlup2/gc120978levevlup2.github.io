@@ -1,31 +1,36 @@
-import {                  
-    user_is_logged_in,
-    user_is_a,
-                                    } from "/assets/model/local/login_user.js"
+import { user_is_logged_in, user_is_a } from "/assets/model/local/login_user.js"
 
-import { root_view   } from "/assets/view/js/sub/root_view.js"
-import { menu_view   } from "/assets/view/js/sub/menu_view.js"
+import { root_view } from "/assets/view/js/sub/root_view.js"
+import { menu_view } from "/assets/view/js/sub/menu_view.js"
 import { footer_view } from "/assets/view/js/sub/footer_view.js"
 
-
 export const seller_orders_view = (data) => {
-    
-    let menu_options = ['home','login','seller_signup']
-    if (user_is_logged_in()){
-        if (user_is_a("seller")){
-            menu_options = ['home','seller_dashboard','seller_reg_item', 'seller_ord_item','logout']
-        }else
-        if (user_is_a("buyer")){
-            menu_options = ['home','buyer_dashboard','buyer_checkout','logout']
-        }
-    }
+	let menu_options = ["home", "login", "seller_signup"]
+	if (user_is_logged_in()) {
+		if (user_is_a("seller")) {
+			menu_options = [
+				"home",
+				"seller_dashboard",
+				"seller_reg_item",
+				"seller_ord_item",
+				"logout",
+			]
+		} else if (user_is_a("buyer")) {
+			menu_options = [
+				"home",
+				"buyer_dashboard",
+				"buyer_checkout",
+				"logout",
+			]
+		}
+	}
 
-    root_view()
-    //console.log(menu_options)
-    menu_view("seller_ord_item", menu_options, "header")
-    footer_view("footer")
+	root_view()
+	//console.log(menu_options)
+	menu_view("seller_ord_item", menu_options, "header")
+	footer_view("footer")
 
-    $('#main-body').html(/*html*/`
+	$("#main-body").html(/*html*/ `
        
       <br>
       <div class="container mb-3">
@@ -290,6 +295,7 @@ export const seller_orders_view = (data) => {
                                                     <option>040. Courier processed the Item</option>
                                                     <option>050. Item arrived in locality</option>
                                                     <option>060. Item is ready for delivery</option>
+                                                    <option>070. Item is received by Buyer</option>
                                                 </select>
                                                 <label for="category_id2">Current Status Update</label>
                                             </div> 
@@ -346,7 +352,5 @@ export const seller_orders_view = (data) => {
         </div>
       </div>              
        
-    `/*html*/)
-    
-    
+    ` /*html*/)
 }
