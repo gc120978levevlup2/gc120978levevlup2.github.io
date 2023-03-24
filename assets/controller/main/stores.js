@@ -111,6 +111,11 @@ function getProductListInnerHTMLof_users(items) {
                                 <div class="row g-1">
                                     <div class="col-6">
                                         <button 
+                                            ${
+												item.on_stop_sell === true
+													? `disabled`
+													: ``
+											}
                                             type="button" 
                                             class="btn btn-outline-primary w-100" 
                                             id="${i}"

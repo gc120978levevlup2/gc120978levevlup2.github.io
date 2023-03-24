@@ -726,10 +726,10 @@ export const index_view = (data) => {
                                 </h5>
                                 <br>
                                 <h1 class="text-center align-middle">
-                                    <b><i>How do we operate?</i></b>
+                                    <b><i>How we operate?</i></b>
                                 </h1>
                                 <h5 class="text-center align-middle text-secondary">
-                                    We facilitate in the sale of products that is related to our cause, and part of the income will fund the causes that we beleive can give meaning to our existence.
+                                    We facilitate in the sale of products that is related to our cause, and part of the income will fund the causes that we believe can give meaning to our existence.
                                 </h5>
                             </div>                        
                         </div>
@@ -836,7 +836,7 @@ export const index_view = (data) => {
                             <div class="row mt-3 text-center">
                                 <div class="col-lg-3 mb-5">
                                     <div class="index-button-logo3">
-                                        <a target="_blank" href="/assets/view/img/johnc-pic.jpg">
+                                        <a target="_blank" href="/assets/view/pages/cv/jac-cv.html">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/johnc-pic.jpg" alt="">
                                             <p> <h3>John Arsenio<br> Cabison </h3></p>
                                             <hr class="d-none d-lg-block">
@@ -846,7 +846,7 @@ export const index_view = (data) => {
                                 </div>
                                 <div class="col-lg-3 mb-5">
                                     <div class="index-button-logo3">
-                                        <a target="_blank" href="/assets/view/img/davesaloria.jpg">
+                                        <a target="_blank" href="/assets/view/pages/cv/dave.html">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/davesaloria.jpg" alt="">
                                             <p> <h3> Dave <br> Saloria </h3></p>
                                             <hr class="d-none d-lg-block">
@@ -856,7 +856,7 @@ export const index_view = (data) => {
                                 </div>                            
                                 <div class="col-lg-3 mb-5">
                                     <div class="index-button-logo3">
-                                        <a target="_blank" href="/assets/view/img/reyL.jpg">
+                                        <a target="_blank" href="/assets/view/pages/cv/rl-cv.html">
                                             <img class="rounded-circle shadow" width="180px" src="/assets/view/img/reyL.jpg" alt="">
                                             <p> <h3> Rey <br> Logdat </h3></p>
                                             <hr class="d-none d-lg-block">

@@ -1,31 +1,36 @@
-import {                  
-    user_is_logged_in,
-    user_is_a,
-                                    } from "/assets/model/local/login_user.js"
+import { user_is_logged_in, user_is_a } from "/assets/model/local/login_user.js"
 
-import { root_view   } from "/assets/view/js/sub/root_view.js"
-import { menu_view   } from "/assets/view/js/sub/menu_view.js"
+import { root_view } from "/assets/view/js/sub/root_view.js"
+import { menu_view } from "/assets/view/js/sub/menu_view.js"
 import { footer_view } from "/assets/view/js/sub/footer_view.js"
 
-
 export const buyer_checkout_view = (data) => {
-    
-    let menu_options = ['home','login','seller_signup']
-    if (user_is_logged_in()){
-        if (user_is_a("seller")){
-            menu_options = ['home','seller_dashboard','seller_reg_item', 'seller_ord_item','logout']
-        }else
-        if (user_is_a("buyer")){
-            menu_options = ['home','buyer_dashboard','buyer_checkout','logout']
-        }
-    }
+	let menu_options = ["home", "login", "seller_signup"]
+	if (user_is_logged_in()) {
+		if (user_is_a("seller")) {
+			menu_options = [
+				"home",
+				"seller_dashboard",
+				"seller_reg_item",
+				"seller_ord_item",
+				"logout",
+			]
+		} else if (user_is_a("buyer")) {
+			menu_options = [
+				"home",
+				"buyer_dashboard",
+				"buyer_checkout",
+				"logout",
+			]
+		}
+	}
 
-    root_view()
-    //console.log(menu_options)
-    menu_view("buyer_checkout", menu_options, "header")
-    footer_view("footer")
+	root_view()
+	//console.log(menu_options)
+	menu_view("buyer_checkout", menu_options, "header")
+	footer_view("footer")
 
-    $('#main-body').html(/*html*/`
+	$("#main-body").html(/*html*/ `
        
        <main>
   <br />
@@ -289,6 +294,19 @@ export const buyer_checkout_view = (data) => {
                     </h6>
                   </div>
                 </div>
+                <div class="row mb-3">
+                  <div class="col-7">
+                    <label class="form-label">Cause Fund Allot.</label>
+                  </div>
+                  <div class="col-1">
+                    <h6>₱</h6>
+                  </div>
+                  <div class="col-4">
+                    <h6 style="float: right" id="cause-fund">
+                      -0.00
+                    </h6>
+                  </div>
+                </div>
                 <hr />
                 <div class="row mb-3">
                   <div class="col-6">
@@ -372,7 +390,5 @@ export const buyer_checkout_view = (data) => {
   </section>
 </main>          
        
-    `/*html*/)
-    
-    
+    ` /*html*/)
 }
