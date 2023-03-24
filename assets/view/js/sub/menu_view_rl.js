@@ -10,7 +10,7 @@ export const menu_view = (
 	element_to_connect
 ) => {
 	let res_data_path = "/assets/view/img/user.jpg"
-	let image1 = "d-lg-block"
+	let image1 = "d-xl-block"
 	let image2 = ""
 	if (user_is_logged_in()) {
 		read_user((user) => {
@@ -63,7 +63,7 @@ export const menu_view = (
 	$(`#${element_to_connect}`).html(/*html*/ ` 
 
         <div class="container-fluid w-100">  
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark px-2" style="background-color: rgb(23,32,213,0.85);backdrop-filter: blur(5px);">
+            <nav class="navbar navbar-expand-xl fixed-top navbar-dark px-2" style="background-color: rgb(23,32,213,0.85);backdrop-filter: blur(5px);">
                     <a class="navbar-brand" href="/">
                         <img
                             height="40px"
@@ -109,11 +109,23 @@ export const menu_view = (
                                 </a>
                             </li>
                             <!-- Customize for this file only -->
-                            <li class="nav-item ${hide_sel["buyer_about"]}">
-                                <a class="nav-link ${selection["buyer_about"]}"  href="/assets/module_rl/#aboutus">
-                                    About
-                                </a>
-                            </li>
+                            <li class="nav-item">
+							<a class="nav-link" href="./#services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./#about-us">About Us</a>
+						</li>
+						<li class="navi-item">
+							<a class="nav-link" href="./#products">Products</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./#testimonials"
+								>Testimonials</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./#footer1">Contact</a>
+						</li>
                             <li class="nav-item ${hide_sel["buyer_merch"]}">
                                 <a class="nav-link ${selection["buyer_merch"]}"  href="/assets/module_rl/merchandise.html">
                                     Merchandise
@@ -180,7 +192,7 @@ export const menu_view = (
                                     placeholder="Enter a search term"
                                 />
                                 
-                                <button class="btn btn-light border-3" type="submit">
+                                <button class="btn btn-light border-3" style="border-left: 1px solid #CED4DA;" type="submit">
                                     Search
                                 </button>                              
                             </div>
