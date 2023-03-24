@@ -180,7 +180,7 @@ export const menu_view = (
                                     placeholder="Enter a search term"
                                 />
                                 
-                                <button class="btn btn-light border-3" type="submit">
+                                <button class="btn btn-light border-3" style="border-left: 1px solid #CED4DA;" type="submit">
                                     Search
                                 </button>                              
                             </div>

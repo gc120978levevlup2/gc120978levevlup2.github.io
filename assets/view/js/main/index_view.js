@@ -1,31 +1,37 @@
-import {                  
-    user_is_logged_in,
-    user_is_a,
-                                    } from "/assets/model/local/login_user.js"
+import { user_is_logged_in, user_is_a } from "/assets/model/local/login_user.js"
 
-import { root_view   } from "/assets/view/js/sub/root_view.js"
-import { menu_view   } from "/assets/view/js/sub/menu_view.js"
+import { root_view } from "/assets/view/js/sub/root_view.js"
+import { menu_view } from "/assets/view/js/sub/menu_view.js"
 import { footer_view } from "/assets/view/js/sub/footer_view.js"
 
-
 export const index_view = (data) => {
-    
-    let menu_options = ['home','login','buyer_signup','seller_signup']
-    if (user_is_logged_in()){
-        if (user_is_a("seller")){
-            menu_options = ['home','seller_dashboard','seller_reg_item', 'seller_ord_item','logout']
-        }else{
-            menu_options = ['home','buyer_dashboard','buyer_checkout','logout']
-        }
-    }
+	let menu_options = ["home", "login", "buyer_signup", "seller_signup"]
+	if (user_is_logged_in()) {
+		if (user_is_a("seller")) {
+			menu_options = [
+				"home",
+				"seller_dashboard",
+				"seller_reg_item",
+				"seller_ord_item",
+				"logout",
+			]
+		} else {
+			menu_options = [
+				"home",
+				"buyer_dashboard",
+				"buyer_checkout",
+				"logout",
+			]
+		}
+	}
 
-    root_view()
-    //console.log(menu_options)
-    menu_view("home", menu_options, "header")
-    footer_view("footer")
+	root_view()
+	//console.log(menu_options)
+	menu_view("home", menu_options, "header")
+	footer_view("footer")
 
-    $('#main-body-container').removeClass('container') // remove this to make the container visible
-    $('#main-body').html(/*html*/`
+	$("#main-body-container").removeClass("container") // remove this to make the container visible
+	$("#main-body").html(/*html*/ `
 
         <div class="container bg-primary d-flex" style='overflow:hidden;min-height:calc(100vh - 60px)'>
           <div class="m-auto">
@@ -941,7 +947,7 @@ export const index_view = (data) => {
                     <br />
                     <hr />
                     <p>
-                    myStore is the online store that offers everything you need in
+                    3CCCi is the online store that offers everything you need in
                     one place. From fashion to electronics, home goods, and beyond,
                     we've got it all. Say goodbye to crowded stores and hello to the
                     ultimate shopping destination for the masses.
@@ -977,9 +983,9 @@ export const index_view = (data) => {
                     <hr />
                     <p>
                     Tired of dealing with long lines, traffic, and crowded stores?
-                    Look no further than myStore - the online store for the masses.
+                    Look no further than 3CCCi - the online store for the masses.
                     Our easy-to-use website and fast delivery options make shopping
-                    a breeze. Say goodbye to the hassle and shop at myStore today.
+                    a breeze. Say goodbye to the hassle and shop at 3CCCi today.
                     </p>
                 </div>
                 </div>
@@ -1011,7 +1017,7 @@ export const index_view = (data) => {
                     <br />
                     <hr />
                     <p>
-                    At myStore, we believe that shopping should be an enjoyable
+                    At 3CCCi, we believe that shopping should be an enjoyable
                     experience, and that's exactly what we aim to provide. As an
                     online store for the masses, we offer a vast selection of
                     products across multiple categories.
@@ -1046,7 +1052,7 @@ export const index_view = (data) => {
                     <br />
                     <hr />
                     <p>
-                    At myStore, we believe that having a reliable and dependable
+                    At 3CCCi, we believe that having a reliable and dependable
                     system to handle product deliveries to our most valued clients
                     is most important part. We are very proud to have the best and
                     most driven personnel to handle your precious goodies.
@@ -1076,5 +1082,5 @@ export const index_view = (data) => {
             </button>
         </div>
 
-    `/*html*/)
+    ` /*html*/)
 }

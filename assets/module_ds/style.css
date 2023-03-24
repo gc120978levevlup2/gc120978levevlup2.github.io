@@ -5,29 +5,29 @@
 body {
 	font-family: sans-serif;
 }
-#nav-bar1 {
+#nav-bar {
 	position: sticky;
 	top: 0;
 	z-index: 10;
 }
-.navbar1 {
+.navbar {
 	background-image: linear-gradient(to right, #b5e7a0, #b5e7a0);
 	padding: 0 !important;
 }
-navbar1-brand img {
+navbar-brand img {
 	height: 40px;
 	padding-left: 20px;
 }
-.navbar1-nav li {
+.navbar-nav li {
 	padding: 0 10px;
 }
-.navbar1-nav li a {
+.navbar-nav li a {
 	color: #405d27 !important;
 	font-weight: 600;
 	float: right;
 	text-align: left;
 }
-.fa-bars1 {
+.fa-bars {
 	color: #405d27;
 	font-size: 30px !important;
 }
@@ -38,7 +38,9 @@ navbar1-brand img {
 /*------------------banner section ---------------*/
 
 #banner {
+	background-image: linear-gradient(to right, #b5e7a0, #b5e7a0);
 	color: #405d27;
+	padding-top: 5%;
 }
 .promo-title {
 	font-size: 40px;
@@ -67,7 +69,7 @@ navbar1-brand img {
 
 /*---------services section----------*/
 #services {
-	padding: 30px 0;
+	padding: 80px 0;
 }
 .services-img {
 	width: 100px;
@@ -111,7 +113,11 @@ navbar1-brand img {
 }
 
 /*---------about-us section-----*/
-
+#about-us {
+	background: #b5e7a0;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
 .about-title {
 	font-size: 40px;
 	font-weight: 600;
@@ -121,7 +127,7 @@ navbar1-brand img {
 /*----------------testimonials Section----------------*/
 
 #testimonials {
-	margin: 20px 0;
+	margin: 100px 0;
 }
 .testimonials {
 	border-left: 4px solid #405d27;
@@ -142,6 +148,10 @@ navbar1-brand img {
 
 /*----------------social-media section----------------*/
 
+#social-media {
+	background: #405d27;
+	padding: 100px 0;
+}
 #social-media p {
 	font-size: 36px;
 	font-weight: 600;
@@ -157,7 +167,7 @@ navbar1-brand img {
 
 /*-----------------footer section-----------------*/
 
-#footer1 {
+#footer {
 	background-image: linear-gradient(to right, #b5e7a0, #b5e7a0);
 	color: #405d27;
 }

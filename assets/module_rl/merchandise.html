@@ -51,15 +51,43 @@
 							background-color: rgba(234, 229, 208, 0.776);
 						">
 						<!-- Put more html content here -->
-						<header>
-							<img
-								class="rounded-circle shadow"
-								width="80px"
-								height="80px"
-								src="/assets/module_jac/img/psalms-logo.jpg"
-								alt="" />
-							&nbsp;&nbsp;
-							<h1 class="text-white">The Book of Psalms</h1>
+						<header
+							class="d-flex justify-content-sm-between"
+							style="background-color: rgb(255, 252, 240)">
+							<div
+								class="d-flex flex-wrap justify-content-center">
+								<img
+									class="rounded p-3"
+									height="80px"
+									src="images/logo-no-background-removebg-preview.png"
+									alt="" />
+								&nbsp;&nbsp;
+								<h1 class="text-success m-auto">
+									Local Harvest
+								</h1>
+							</div>
+
+							<div class="width:1250px"></div>
+							<div
+								style="float: right; height: 100%"
+								class="d-flex flex-wrap justify-content-center d-none">
+								<ul class="nav nav-pills">
+									<li class="nav-item">
+										<a
+											href="programs.html"
+											class="nav-link text-black fs-5 fw-bolder"
+											>Programs</a
+										>
+									</li>
+									<li class="nav-item">
+										<a
+											href="articles.html"
+											class="nav-link text-black fs-5 fw-bolder"
+											>Articles</a
+										>
+									</li>
+								</ul>
+							</div>
 						</header>
 						<br />
 						<h2
@@ -143,7 +171,7 @@
 				user_is_a,
 			} from "/assets/model/local/login_user.js"
 
-			import { menu_view } from "/assets/view/js/sub/menu_view_jac2.js"
+			import { menu_view } from "/assets/view/js/sub/menu_view_rl.js"
 			import { footer_view } from "/assets/view/js/sub/footer_view.js"
 
 			import {
@@ -385,7 +413,7 @@
 			}
 
 			read_items_fr_seller_email(
-				"johncabison@gmail.com",
+				"reilogdat071899@gmail.com",
 				async (items) => {
 					$("#user-search-list").html(
 						getProductListInnerHTMLof_users(items)
@@ -493,8 +521,8 @@
                                 ${html}
                             </div>
                         </div>
-                        ` /*html*/
-				else return ""
+                        `
+				/*html*/ else return ""
 			}
 		</script>
 	</body>

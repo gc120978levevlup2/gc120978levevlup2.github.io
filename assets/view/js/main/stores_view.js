@@ -4,7 +4,7 @@ import { root_view } from "/assets/view/js/sub/root_view.js"
 import { menu_view } from "/assets/view/js/sub/menu_view.js"
 import { footer_view } from "/assets/view/js/sub/footer_view.js"
 
-export const categories_view = (items) => {
+export const stores_view = (items) => {
 	let menu_options = ["home", "login", "buyer_signup", "seller_signup"]
 	if (user_is_logged_in()) {
 		if (user_is_a("seller")) {
@@ -39,7 +39,7 @@ export const categories_view = (items) => {
             <div class="row">
                 <div class="col-sm-4">
                     <h2 style="float:left"><b>
-                        <span id="category_name">Category Products</span> 
+                        <span id="category_name">Store Products</span> 
                     </b></h2>                  
                 </div>
             </div>
