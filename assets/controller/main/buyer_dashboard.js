@@ -606,8 +606,18 @@ read_user((user) => {
 			if (del_del_btn) {
 				del_del_btn.addEventListener("click", () => {
 					let del_item = del_del_btn.id.replace("del-del-", "")
-					delete_cart_item(del_item, () => {
-						window.location.reload()
+					read_cart_items(del_item, (cart_items) => {
+						let item_id = cart_items[0].item_id
+						read_items(item_id, (item) => {
+							let x_update_item = item[0]
+							x_update_item.sold--
+							console.log(x_update_item)
+							update_item(x_update_item, (x_items) => {
+								delete_cart_item(del_item, () => {
+									window.location.reload()
+								})
+							})
+						})
 					})
 				})
 			}
